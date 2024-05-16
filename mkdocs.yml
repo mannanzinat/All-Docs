@@ -229,8 +229,6 @@ nav:
   - Addon:
       - Addon:
           addon/index.md
-  - Changelog:
-      - changelog/index.md
 
   - Student App:
       - App Basics:
@@ -241,7 +239,7 @@ nav:
       - Common Setup:
          - Google Firebase Setup: studentApp/google-firebase-setup.md
          - Social Login Setup: studentApp/social-login-setup.md
-         - Change Api Server Details: studentApp/change-api-server-details.md
+         - Change API Server Details: studentApp/change-api-server-details.md
          - Change App Logo: studentApp/change-app-logo.md
          - Change Splash Screen Logo: studentApp/change-splash-screen-logo.md
 
@@ -275,7 +273,7 @@ nav:
          - Prepare Flutter Environment: instructorApp/prepare-flutter-environment.md
 
       - Common Setup:
-         - Change Api Server Details: instructorApp/change-api-server-details.md
+         - Change API Server Details: instructorApp/change-api-server-details.md
          - Change App Logo: instructorApp/change-app-logo.md
          - Change Splash Screen Logo: instructorApp/change-splash-screen-logo.md
 
