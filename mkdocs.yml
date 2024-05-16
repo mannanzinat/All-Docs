@@ -231,44 +231,76 @@ nav:
           addon/index.md
   - Changelog:
       - changelog/index.md
+
   - Student App:
       - App Basics:
-        - Recommendation: studentApp/recommendation.md
-        - Installation: studentApp/installation.md
-        - Prepare Flutter Environment: studentApp/prepare-flutter-environment.md
+         - Recommendation: studentApp/recommendation.md
+         - Installation: studentApp/installation.md
+         - Prepare Flutter Environment: studentApp/prepare-flutter-environment.md
 
       - Common Setup:
-        - Google Firebase Setup: studentApp/google-firebase-setup.md
-        - Social Login Setup: studentApp/social-login-setup.md
-        - Change Api Server Details: studentApp/change-api-server-details.md
-        - Change App Logo: studentApp/change-app-logo.md
-        - Change Splash Screen Logo: studentApp/change-splash-screen-logo.md
+         - Google Firebase Setup: studentApp/google-firebase-setup.md
+         - Social Login Setup: studentApp/social-login-setup.md
+         - Change Api Server Details: studentApp/change-api-server-details.md
+         - Change App Logo: studentApp/change-app-logo.md
+         - Change Splash Screen Logo: studentApp/change-splash-screen-logo.md
 
       - Android Setup:
-        - Change App Name: studentApp/change-app-name.md
-        - Change Android Luncher Icon: studentApp/chaneg-android-luncher-icon.md
-        - Change Android Package Name: studentApp/change-android-package-name.md
-        - Generate Debug APK: studentApp/generate-debug-apk.md
-        - Generate Signed APK: studentApp/generate-signed-apk.md
+         - Change App Name: studentApp/change-app-name.md
+         - Change Android Launcher Icon: studentApp/change-android-launcher-icon.md
+         - Change Android Package Name: studentApp/change-android-package-name.md
+         - Generate Debug APK: studentApp/generate-debug-apk.md
+         - Generate Signed APK: studentApp/generate-signed-apk.md
 
 
       - IOS Setup:
-        - Preliminaries: studentApp/preliminaries.md
-        - Register App On AppStore: studentApp/register-app-appstore.md
-        - Create Application Record on AppStore : studentApp/create-application-record.md
-        - Review Xcode project settings:  studentApp/review-xcode-project-settings.md
-        - Updating the app deployment version: studentApp/updating-app-development-version.md
-        - Add an app icon: studentApp/add-an-app-icon.md
+         - Preliminaries: studentApp/preliminaries.md
+         - Register App On AppStore: studentApp/register-app-appstore.md
+         - Create Application Record on AppStore : studentApp/create-application-record.md
+         - Review Xcode project settings:  studentApp/review-xcode-project-settings.md
+         - Updating the app deployment version: studentApp/updating-app-development-version.md
+         - Add an app icon: studentApp/add-an-app-icon.md
+         - Build archive and Submit To AppStore: studentApp/build-archive-and-submit.md
+         - Update the app build and version numbers: studentApp/update-app-build.md
+         - Create An App Bundle: studentApp/create-app-bundle.md
+         - Upload App Bundle To App Store Connect:  studentApp/upload-app-bundle.md
+         - Updating the app deployment version: studentApp/update-app-development-version.md
+         - Release your app on TestFlight: studentApp/release-on-testflight.md
+         - Release your app to the App Store: studentApp/release-on-app-store.md
 
-        - Build archive and Submit To AppStore: studentApp/build-archive-and-submit.md
-        - Update the app build and version numbers: studentApp/update-app-build.md
-        - Create An App Bundle: studentApp/create-app-bundle.md
-        - Upload App Bundle To App Store Connect:  studentApp/upload-app-bundle.md
-        - Updating the app deployment version: studentApp/update-app-development-version.md
-        - Release your app on TestFlight: studentApp/release-on-testflight.md
-        - Release your app to the App Store: studentApp/release-on-app-store.md
+  - Instructor App:
+      - App Basics:
+         - Recommendation: studentApp/recommendation.md
+         - Installation: studentApp/installation.md
+         - Prepare Flutter Environment: studentApp/prepare-flutter-environment.md
+
+      - Common Setup:
+         - Change Api Server Details: studentApp/change-api-server-details.md
+         - Change App Logo: studentApp/change-app-logo.md
+         - Change Splash Screen Logo: studentApp/change-splash-screen-logo.md
+
+      - Android Setup:
+         - Change App Name: studentApp/change-app-name.md
+         - Change Android Launcher Icon: studentApp/change-android-launcher-icon.md
+         - Change Android Package Name: studentApp/change-android-package-name.md
+         - Generate Debug APK: studentApp/generate-debug-apk.md
+         - Generate Signed APK: studentApp/generate-signed-apk.md
 
 
+      - IOS Setup:
+         - Preliminaries: studentApp/preliminaries.md
+         - Register App On AppStore: studentApp/register-app-appstore.md
+         - Create Application Record on AppStore: studentApp/create-application-record.md
+         - Review Xcode project settings: studentApp/review-xcode-project-settings.md
+         - Updating the app deployment version: studentApp/updating-app-development-version.md
+         - Add an app icon: studentApp/add-an-app-icon.md
+         - Build archive and Submit To AppStore: studentApp/build-archive-and-submit.md
+         - Update the app build and version numbers: studentApp/update-app-build.md
+         - Create An App Bundle: studentApp/create-app-bundle.md
+         - Upload App Bundle To App Store Connect: studentApp/upload-app-bundle.md
+         - Updating the app deployment version: studentApp/update-app-development-version.md
+         - Release your app on TestFlight: studentApp/release-on-testflight.md
+         - Release your app to the App Store: studentApp/release-on-app-store.md
 
 
 
