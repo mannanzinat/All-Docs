@@ -1,4 +1,4 @@
-# Change Android Luncher Icon
+# Change Android Launcher Icon
 
 
 Open this link from your browser.

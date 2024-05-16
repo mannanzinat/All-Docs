@@ -4,7 +4,7 @@ title:   Change API Server
 sidebar_label:   Change API SERVER DETAILS
 ---
 
-# Change API Servre Details
+# Change API Server Details
 
 &nbsp;
 
