@@ -19,7 +19,7 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Faculty - LMS Documentation
+site_name: Delix Documentation
 site_url:
 site_author: SpaGreen Creative
 site_description: >-
@@ -65,22 +65,22 @@ theme:
     # - toc.integrate
   palette:
     - scheme: default
-      primary: green
-      accent: green
+      primary: '00224D'
+      accent: 'FF204E'
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: green
-      accent: green
+      primary: '00224D'
+      accent: 'FF204E'
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   font:
     text: Jost
     code: Roboto Mono
-  favicon: assets/favicon.png
-  logo: assets/logo.png
+  favicon: assets/delix images/favicon.png
+  logo: assets/delix images/logo.png
 
 # Plugins
 plugins:
@@ -153,86 +153,43 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
-    - Introducing: getting-started.md
+    - Introduction: delix-usage/getting-started.md
     - Requirements: requirements.md
     - Installation: installation.md
   - Setup:
       - setup/index.md
       - General Setting: setup/general.md
       - Preference: setup/preference.md
-      - Currency Setting: setup/currency.md
-      - Email Setting: setup/email.md
       - Language Setting: setup/language.md
-      - Cache Setting: setup/cache.md
-      - Admin Panel Setting: setup/admin-panel.md
-      - Firebase Setting: setup/firebase.md
-      - Storage Setting: setup/storage.md
-      - Chat Setting: setup/chat.md
-      - Refund Setting: setup/refund.md
-      - Misc. Setting: setup/misc.md
-      - Payment Gateway:
-        - setup/payment-gateway.md
-      - SMS & OTP:
-        - uses/sms-otp.md
+      - Payout Method: delix-usage/payout-method.md
+      - Default Charges: delix-usage/default-charge.md
+      - Packaging Charges: delix-usage/packaging-charge.md
+      - Pusher Settings: delix-usage/pusher.md
+      - OneSignal Settings: delix-usage/onesignal.md
+      - Payment System: delix-usage/offline-payment.md
   - Usage:
-      - uses/index.md
-      - Course:
-        - uses/course-list.md
-        - uses/course-category.md
-        - uses/course-subject.md
-        - uses/course-tags.md
-        - uses/course-levels.md
-        - uses/certificates.md
-      - Manage Students:
-        - uses/manage-students.md
-      - Manage Instructors:
-        - uses/manage-instructor.md
-        - uses/add-instructor.md
-      - Manage Organization:
-        - uses/manage-organization.md
-        - uses/add-organization.md
-      - Manage Staff:
-        - uses/manage-staff.md
-        - uses/roles.md
-      - Media Library:
-        - uses/media-library.md
-      - All Pages:
-        - uses/all-pages.md
-      - Blog:
-        - uses/blog.md
-      - Payment Gateway:
-        - uses/payment-gateway.md
-      - Refund:
-        - uses/refund.md
-      - Packages:
-        - uses/packages.md
-      - Payout:
-        - uses/payout.md
-      - Notification:
-        - uses/notification.md
-      - Support:
-        - uses/support.md
-      - Marketing:
-        - uses/marketing.md
-      - Reports:
-        - uses/reports.md
-      - Mobile App Settings:
-        - uses/mobile-app-settings.md
-      - CMS:
-        - uses/cms.md
-      - Website Settings:
-        - uses/website-settings.md
-
+#      - uses/index.md
+      - Merchant:
+        - delix-usage/create-parcel.md
+        - delix-usage/add-shop.md
+        - delix-usage/payment-request.md
+        - delix-usage/default-payment-account.md
+      - Branch Manager:
+        - delix-usage/pickup-assign.md
+        - delix-usage/add-delivery-man.md
+      - Delivery Man:
+        - delix-usage/pickup-delivery.md
+        - delix-usage/cash-collect.md
   - Utility:
       - utility/index.md
 
-  - Addon:
-      - Addon:
-          addon/index.md
+#  - Addon:
+#      - Addon:
+#          addon/index.md
   - Changelog:
       - changelog/index.md
 
-  - Student App:
+  - Merchant App:
       - App Basics:
          - Recommendation: studentApp/recommendation.md
          - Installation: studentApp/installation.md
@@ -267,8 +224,8 @@ nav:
          - Updating the app deployment version: studentApp/update-app-development-version.md
          - Release your app on TestFlight: studentApp/release-on-testflight.md
          - Release your app to the App Store: studentApp/release-on-app-store.md
-
-  - Instructor App:
+#
+  - Rider App:
       - App Basics:
          - Recommendation: instructorApp/recommendation.md
          - Installation: instructorApp/installation.md

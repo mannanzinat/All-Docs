@@ -35,7 +35,7 @@ You can delete any course category by clicking Delete icon from right button.
 
  Here you can view all course category and add new course category with appropriate Information .
 
-![FacultyLMS](/assets/ovoy/course_categories.png)
-![FacultyLMS](/assets/ovoy/create_new_category.png)
+![FacultyLMS](../assets/ovoy/course_categories.png)
+![FacultyLMS](../assets/ovoy/create_new_category.png)
 
 

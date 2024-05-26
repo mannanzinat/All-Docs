@@ -14,41 +14,41 @@ Download file from codecanyon and extract in your pc and you will get 03 folder.
 
 01.** Now login to your cpanel and go to > MySQL® Database Wizard**
 
-![Docusaurus Plushie](../assets/screenshots/install/install1.png)
+![Delix](assets/faculty/install1.png)
 
 02. **Create database**
 
-![Docusaurus Plushie](../assets/screenshots/install/install2.png)
+[Delix](assets/faculty/install2.png)
 
 03. **Create Database Users, do not forget to keep your database user password, we will need this while we run installation wizard.**
 
-![Docusaurus Plushie](../assets/screenshots/install/install3.png)
+![Delix](assets/faculty/install3.png)
 
 04: **Add user to the database. check all privileges and click make changes. then click “Next Step” Database create is done, keep database user, database name, database password in a note.**
 
-![Docusaurus Plushie](../assets/screenshots/install/install4.png)
+![Delix](assets/faculty/install4.png)
 
 05.** Upload installable file to server**
 
-![Docusaurus Plushie](../assets/screenshots/install/install5.png)
+![Delix](assets/faculty/install5.png)
 
 06. **unzip the installable file to server**
 
-![Docusaurus Plushie](../assets/screenshots/install/install6.png)
+![Delix](assets/faculty/install6.png)
 
 Check Permission of index.php file, make sure it’s file permission to 777
 
-![Docusaurus Plushie](../assets/screenshots/install/permission.png)
+[//]: # (![Delix]&#40;../assets/screenshots/install/permission.png&#41;)
 
 ### Step : 03
 
 Open browser and hit you server URL. Example: https://example.com/
 
-![Docusaurus Plushie](../assets/screenshots/install/installation-step-1.png)
+![Delix](assets/faculty/faculty-installation-step1.png)
 
 If all the requirements are fulfilled then click on Next
 
-![Docusaurus Plushie](../assets/screenshots/install/installation-step-2.png)
+![Docusaurus Plushie](assets/faculty/faculty-installation-step2.png)
 
 Your database connection details:
 
@@ -63,7 +63,8 @@ Your account details for administration:
 - **Last Name**: that will be the Administrator last name
 - **Email**: email for login and you can’t change this email.
 - **Password**: password for admin login.
-- **Activation code**: that you got when purchasing our product from Envato. [Get Activation Code from here](https://license.spagreen.net/)
+
+[//]: # (- **Activation code**: that you got when purchasing our product from Envato. [Get Activation Code from here]&#40;https://license.spagreen.net/&#41;)
 - After successful installation, system will redirect you to the home page.
 
 !!! warning "Please Note Carefully"

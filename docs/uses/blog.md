@@ -13,7 +13,7 @@ From **All Post** option you can see all the blog that you posted before.
 
 **Add New Post**
 
-From **Add New Post** you can able to post new blog by providing the information of **Title**, **Category**, **Status**, **Short Description** and so on.
+From **Add New Post** you can be able to post new blog by providing the information of **Title**, **Category**, **Status**, **Short Description** and so on.
 
 ![FacultyLMS](../assets/faculty/add_new_blog.png)
 
