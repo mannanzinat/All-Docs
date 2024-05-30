@@ -1,16 +1,15 @@
 ---
-title:   Default Payment Account
-sidebar_label: Default Payment Account
+title:   Default Payout Method
+sidebar_label: Default Payout Method
 ---
 
-# Default Payment Account
-To Manage **Default Payment Account** follow the procedures…
+# Default Payout Method
+To Manage **Default Payout Method** follow the procedures…
 
 - Merchant can have multiple account registered for the system for payment.
 - From those multiple account, he can select the default payment account for his system.
 
-[//]: # (![FacultyLMS]&#40;../assets/ovoy/course_categories.png&#41;)
+![Delix](../assets/delix_images/Merchant_images/default_payout_method.png)
 
-[//]: # (![FacultyLMS]&#40;../assets/ovoy/create_new_category.png&#41;)
 
 

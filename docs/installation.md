@@ -44,11 +44,11 @@ Check Permission of index.php file, make sure it’s file permission to 777
 
 Open browser and hit you server URL. Example: https://example.com/
 
-![Delix](assets/faculty/faculty-installation-step1.png)
+![Delix](assets/delix_images/Others/installation_1.png)
 
 If all the requirements are fulfilled then click on Next
 
-![Docusaurus Plushie](assets/faculty/faculty-installation-step2.png)
+![Delix](assets/delix_images/Others/installation_2.png)
 
 Your database connection details:
 

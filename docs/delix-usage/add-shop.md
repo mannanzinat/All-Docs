@@ -10,8 +10,10 @@ To Manage **Add Shop** follow the procedures…
 
 - Merchant can have multiple shops of his own. He can add those shops into the system.
 
-[//]: # (![FacultyLMS]&#40;../assets/ovoy/course_categories.png&#41;)
+![Delix](../assets/delix_images/Merchant_images/add_shop.png)
 
-[//]: # (![FacultyLMS]&#40;../assets/ovoy/create_new_category.png&#41;)
+- He also can see his shop list and shop details.
+
+![Delix](../assets/delix_images/Merchant_images/shop_list.png)
 
 

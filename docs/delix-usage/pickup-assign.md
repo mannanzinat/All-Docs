@@ -8,8 +8,11 @@ To Manage **Pickup Assign** follow the procedures…
 
 - Branch manager can assign delivery man for pickup and deliver.
 
-[//]: # (![FacultyLMS]&#40;../assets/ovoy/course_categories.png&#41;)
+![Delix](../assets/delix_images/Branch_images/assign_pickup.png)
 
-[//]: # (![FacultyLMS]&#40;../assets/ovoy/create_new_category.png&#41;)
+![Delix](../assets/delix_images/Branch_images/assign_delivery.png)
 
+- Branch manager can see the details parcel list in his own branch.
+
+![Delix](../assets/delix_images/Branch_images/branch_parcel_list.png)
 

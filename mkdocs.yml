@@ -23,8 +23,8 @@ site_name: Delix Documentation
 site_url:
 site_author: SpaGreen Creative
 site_description: >-
-  A complete eLearning management system build for every edu-tech platform,
-  which is committed to deliver effortless lms experience!
+  A proper courier management system build for every logistics based platform,
+  which is committed to deliver smooth parcel management experience!
 
 
 # Repository
@@ -65,22 +65,22 @@ theme:
     # - toc.integrate
   palette:
     - scheme: default
-      primary: '00224D'
-      accent: 'FF204E'
+      primary: navy blue
+      accent: red
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: '00224D'
-      accent: 'FF204E'
+      primary: navy blue
+      accent: red
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Jost
+    text: Roboto
     code: Roboto Mono
-  favicon: assets/delix images/favicon.png
-  logo: assets/delix images/logo.png
+  favicon: assets/delix_images/favicon.png
+  logo: assets/delix_images/logo.png
 
 # Plugins
 plugins:
@@ -158,36 +158,34 @@ nav:
     - Installation: installation.md
   - Setup:
       - setup/index.md
-      - General Setting: setup/general.md
-      - Preference: setup/preference.md
-      - Language Setting: setup/language.md
+      - General Setting: delix-usage/general.md
+      - Preference: delix-usage/preference.md
+      - Language Setting: delix-usage/language.md
       - Payout Method: delix-usage/payout-method.md
       - Default Charges: delix-usage/default-charge.md
       - Packaging Charges: delix-usage/packaging-charge.md
       - Pusher Settings: delix-usage/pusher.md
       - OneSignal Settings: delix-usage/onesignal.md
-      - Payment System: delix-usage/offline-payment.md
+      - SMS Settings: delix-usage/sms_settings.md
   - Usage:
 #      - uses/index.md
       - Merchant:
         - delix-usage/create-parcel.md
         - delix-usage/add-shop.md
-        - delix-usage/payment-request.md
+        - delix-usage/payout-request.md
         - delix-usage/default-payment-account.md
       - Branch Manager:
         - delix-usage/pickup-assign.md
-        - delix-usage/add-delivery-man.md
       - Delivery Man:
         - delix-usage/pickup-delivery.md
-        - delix-usage/cash-collect.md
   - Utility:
-      - utility/index.md
+      - delix-usage/utility.md
 
 #  - Addon:
 #      - Addon:
 #          addon/index.md
-  - Changelog:
-      - changelog/index.md
+#  - Changelog:
+#      - changelog/index.md
 
   - Merchant App:
       - App Basics:

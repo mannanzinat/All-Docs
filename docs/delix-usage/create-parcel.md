@@ -10,10 +10,10 @@ Merchant can create parcel from his account.
 
 **Select Branch**
 
-Merchant will select the specific branch for his parcel to deliver.
+- Merchant will select the specific branch for his parcel to deliver.
+- Merchant can add parcel with specific details.
 
-[//]: # (![FacultyLMS]&#40;../assets/ovoy/course_categories.png&#41;)
+![Delix](../assets/delix_images/Merchant_images/add_parcel.png)
 
-[//]: # (![FacultyLMS]&#40;../assets/ovoy/create_new_category.png&#41;)
 
 
