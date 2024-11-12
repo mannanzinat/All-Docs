@@ -19,12 +19,11 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Delix Documentation
+site_name: Documentation
 site_url:
 site_author: SpaGreen Creative
 site_description: >-
-  A proper courier management system build for every logistics based platform,
-  which is committed to deliver smooth parcel management experience!
+  Delix is a Delivery and Courier Management SaaS solution that streamlines the entire package lifecycle, from pickup to delivery. Designed for efficient parcel management, it offers real-time tracking, payment processing for merchants and riders, and ensures secure, on-time deliveries.
 
 
 # Repository
@@ -32,7 +31,7 @@ repo_name:
 repo_url:
 
 # Copyright
-copyright: Copyright &copy; 2019 - 2023 SpaGreen Creative
+copyright: Copyright &copy; 2019 - 2024 SpaGreen Creative
 
 # Configuration
 theme:
@@ -65,14 +64,14 @@ theme:
     # - toc.integrate
   palette:
     - scheme: default
-      primary: navy blue
-      accent: red
+      primary: pink
+      accent: pink
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: navy blue
-      accent: red
+      primary: pink
+      accent: pink
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
