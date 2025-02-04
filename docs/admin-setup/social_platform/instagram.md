@@ -3,66 +3,59 @@ title:   Instagram
 sidebar_label:    Instagram
 ---
 
-# Step1 Create Facebook Developer App
-To setup **Whatsapp Feautre** follow the procedures…
+# Instagram Platform Configuration in SocialVibe
 
+**NOTE:** Instagram and Facebook can use the same app (no need to create two separate apps).
 
-- Go to **developer.facebook.com** &  login with **Meta Account**
-- Then go to **Create App option** and create a **new app**
+## Steps to Configure:
 
-![SaleBot](../assets/screenshots/create_app_1.png)
+1. Navigate to the **Platforms** section in the SocialVibe dashboard and locate the Facebook platform in the list.
+2. Click on the **Settings** button (settings icon) under the "Options" column for the Facebook platform.
+3. A modal titled **Update Configuration** will appear, displaying the following fields:
+  - **Client ID**: Enter the Client ID from your Facebook developer account.
+  - **Client Secret**: Enter the Client Secret from your Facebook developer account.
+  - **App Version**: Specify the API version (e.g., v21.0).
+  - **Graph API URL**: The default URL is `https://graph.facebook.com`.
+  - **Group URL**: The default URL is `https://www.facebook.com/groups`.
+  - **Callback URL**: Copy this URL using the copy button provided and paste it into your Facebook app's configuration in the Facebook Developer account.
 
-- Select **Other Option** and click **next**
+4. Once you have successfully created the app in your Meta Developer account, proceed to add a new product:
+  - Navigate to the **Menu** options in the Meta Developer account.
+  - Select **Instagram** and click on the **Set Up** button.
+  - Follow the subsequent steps to complete the setup process.
 
-![SaleBot](../assets/screenshots/create_app_2.png)
+---
 
-- Select **Business** from **App Type**
+## API Setup for Instagram Business Login
 
-![SaleBot](../assets/screenshots/create_app_3.png)
+Follow these steps to set up the Instagram API for Business Login in your Meta Developer account. This process allows you to use the Instagram API to create, publish, and manage content, interact with users, and moderate comments.
 
-- Provide **an unique name** for the **App**
+### Steps for API Setup:
 
-![SaleBot](../assets/screenshots/create_app_4.png)
+1. **Generate Access Tokens:**
+  - Add an Instagram account to generate access tokens and set up webhook subscriptions.
+  - Click on the **Add Account** button to link your Instagram account.
 
-- Go to **app dashboard** and select **whatsapp** for the **integration**. Then select **whatsapp API** settings.
+2. **Configure Webhooks:**
+  - Set up a custom webhook URL or use services that help you create an endpoint.
+  - Ensure the app mode is set to **Live** to receive webhooks.
+  - Click the **Configure** button to set this up.
 
-![SaleBot](../assets/screenshots/create_app_5.png)
+3. **Set Up Instagram Business Login:**
+  - Provide a secure way for businesses to grant your app permissions to access data using Instagram Business Login.
+  - Click the **Set Up** button to configure this.
 
-- From **API Settings** you can get **temporary access token**,**Phone Number ID** and **Whatsapp Business Accout ID**. These credentials are essential for next step.
+4. **Complete App Review:**
+  - To access live data, your app must successfully complete the app review process.
+  - Go through the review to request advanced access to Instagram permissions.
+  - Submit your app for review when you are ready.
 
-![SaleBot](../assets/screenshots/create_app_6.png)
+---
 
+### Important Information:
 
-# Step2 Connect Webhook
-To setup **Webhook** with **Whatsapp API credentials**  follow the procedures…
+- **Instagram App Name:** SocialVibe-IG
+- **Instagram App ID:** 605508678636718
+- **Instagram App Secret:** [Hidden for security]
 
-
-- Go to **Client Module** &  click **Settings**
-- Then paste **Token**,**Phone Number ID** and **Whatsapp Business Account ID**. After completing the setup, you can access whatsapp features
-
-![SaleBot](../assets/screenshots/webhook_access_token.png)
-
-![SaleBot](../assets/screenshots/whatsapp_2.png)
-
-# Step3 Create Permanent Access Token
-To setup **Permanent Token** instead of **temporary token** follow the procedures…
-
-
-- Go to **business.facebook.com** &  go to your **app**.
-- Create a **system user** for the app
-
-![SaleBot](../assets/screenshots/permanent_token_1.png)
-
-- From **Accounts**->**Apps**->**Assign People** the correct rights.
-
-![SaleBot](../assets/screenshots/permanent_token_2.png)
-
-- After giving rights add the people into the **app**.
-
-![SaleBot](../assets/screenshots/permanent_token_3.png) 
-
-- From next window select time expiration to **never** and select **whatsapp_business_management** and **whatsapp_business_rights**.
-- New **permanent token** will be generated.
-
-![SaleBot](../assets/screenshots/permanent_token_4.png)
-
+For more details, refer to the [Meta Developer documentation](https://developers.facebook.com/docs/instagram-api/).

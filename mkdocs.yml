@@ -175,11 +175,7 @@ nav:
         - admin-setup/social_platform//x.md
       - Utility: utility/index.md
   - Client Setup:
-      - Social Profile:
-        - client/social_profile/facebook.md
-        - client/social_profile/instagram.md
-        - client/social_profile/linkedin.md
-        - client/social_profile/x.md
+      - Connect Social Account: client/connect_social_account.md
       - Manage Client: uses/manage-clients.md
       - Staff:
         - uses/all-staff.md
