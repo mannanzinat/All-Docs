@@ -23,14 +23,14 @@ site_name: Documentation
 site_url:
 site_author: SpaGreen Creative
 site_description: >-
-  SaleBot, developed by SpaGreen Creative, is a WhatsApp and Telegram Marketing Software as a Service (SaaS) script available for purchase on the CodeCanyon marketplace.
+  Meet SocialVibe—an AI-powered platform that automates social media marketing. Save time, boost engagement, and manage posts effortlessly with real-time insights and an intuitive dashboard.
 
 # Repository
 repo_name:
 repo_url:
 
 # Copyright
-copyright: Copyright &copy; 2019 - 2024 SpaGreen Creative
+copyright: Copyright &copy; 2019 - 2025 SpaGreen Creative
 
 # Configuration
 theme:
@@ -51,31 +51,31 @@ theme:
     - navigation.indexes
     # - navigation.instant
     # - navigation.prune
-    - navigation.sections
+#    - navigation.sections
     - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
+#    - search.highlight
+#    - search.share
+#    - search.suggest
     - toc.follow
     # - toc.integrate
   palette:
     - scheme:
-      primary: indigo
+      primary: light blue
       accent:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
+      primary: blue
       accent:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
   font:
-    text: Jost
+    text: Outfit
     code: Roboto Mono
   favicon: assets/favicon.png
   logo: assets/logo.png
@@ -165,56 +165,31 @@ nav:
       - Firebase Setting: admin-setup/firebase.md
       - Storage Setting: admin-setup/storage.md
       - Misc. Setting: admin-setup/misc.md
-      - Payment Gateway:
-        - admin-setup/payment-gateway.md
-      - Website Setting:
-        - admin-setup/website.md
-      - Pages:
-        - admin-setup/pages.md
-
+      - Payment Gateway: admin-setup/payment-gateway.md
+      - Website Setting: admin-setup/website.md
+      - Pages: admin-setup/pages.md
+      - Social Platform:
+        - admin-setup/social_platform/facebook.md
+        - admin-setup/social_platform//instagram.md
+        - admin-setup/social_platform//linkedin.md
+        - admin-setup/social_platform//x.md
+      - Utility: utility/index.md
   - Client Setup:
-      - WhatsApp:
-        - client/whatsapp.md
-      - Telegram:
-          - client/telegram.md
-  - Usage:
-      - Admin Module:
-        - uses/price-plan.md
-        - uses/manage-clients.md
+      - Social Profile:
+        - client/social_profile/facebook.md
+        - client/social_profile/instagram.md
+        - client/social_profile/linkedin.md
+        - client/social_profile/x.md
+      - Manage Client: uses/manage-clients.md
       - Staff:
         - uses/all-staff.md
         - uses/roles.md
-      - Website Settings:
-        - uses/website-settings.md
-      - AI Assistant:
-        - uses/ai_assistant.md
+      - Website Settings: uses/website-settings.md
+      - AI Assistant: uses/ai_assistant.md
       - Subscription:
+        - uses/price-plan.md
         - uses/subscription.md
-      - Support:
-        - uses/support.md
-      - Email:
-        - uses/email.md
-      - Client Module:
-        - uses/whatsapp.md
-        - uses/telegram.md
-        - uses/campaigns.md
-        - uses/team-member.md
-        - uses/my-ticket.md
-
-  - Utility:
-      - utility/index.md
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      - Support: uses/support.md
+      - Email: uses/email.md
+      - Team Member: uses/team-member.md
+      - Support Ticket: uses/my-ticket.md
