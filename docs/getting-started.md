@@ -1,12 +1,6 @@
 # Introduction
 
-[SocialVibe](https://salebot.app/), crafted by SpaGreen Creative, emerges as a WhatsApp and Telegram Marketing Software as a Service (SaaS) script, accessible for acquisition through the CodeCanyon marketplace. 
-This innovative platform equips businesses with robust tools tailored to streamline marketing campaigns, foster customer engagement, and optimize communication via WhatsApp and Telegram messaging platforms. 
-
-Engineered to empower businesses in reaching their desired audience, SaleBot offers automation features that enhance marketing efficiency and fortify overall strategies.
-
-For those keen on harnessing [SocialVibe's](https://salebot.app/) potential for their marketing endeavors, it awaits discovery on the CodeCanyon marketplace.
-
+[SocialVibe](https://salebot.app/), is an AI-powered social media management and scheduling SaaS platform designed to streamline and enhance social media marketing. It offers businesses and marketers tools to efficiently manage their social media presence across multiple platforms.
 ### Building Technology
 
 - Backend Framework: PHP/Laravel 10x
@@ -14,6 +8,7 @@ For those keen on harnessing [SocialVibe's](https://salebot.app/) potential for 
 
 ### Integration
 
-- Meta Cloud API for WhatsApp
-- OpenAI for Bot Reply & Writer
-- Telegram - Campaign & Chat
+- Meta Cloud API for facebook & Instagram
+- OpenAI API for AI Content
+- Linkedin API
+- X/Twitter API

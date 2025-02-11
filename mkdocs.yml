@@ -154,7 +154,8 @@ nav:
     - Introducing: getting-started.md
     - Requirements: requirements.md
     - Installation: installation.md
-  - Admin Setup:
+  - Setup & Config:
+      - Manage Client: uses/manage-clients.md
       - General Setting: admin-setup/general.md
       - Currency Setting: admin-setup/currency.md
       - Email Setting: admin-setup/email.md
@@ -173,9 +174,7 @@ nav:
         - admin-setup/social_platform//linkedin.md
         - admin-setup/social_platform//x.md
       - Utility: utility/index.md
-  - Client Setup:
-      - Connect Social Account: client/connect_social_account.md
-      - Manage Client: uses/manage-clients.md
+#      - Connect Social Account: client/connect_social_account.md
       - Staff:
         - uses/all-staff.md
         - uses/roles.md
