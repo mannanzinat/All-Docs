@@ -11,11 +11,11 @@ To Manage **Campaign** related settings for your application follow the procedur
 
 - You can see all current campaigns from here.
 
-![SaleBot](../assets/screenshots/campaign_1.png)
+![SocialVibe](../assets/screenshots/campaign_1.png)
 
 - You can configure your whatsapp and telegram campaign from here.
 
-![SaleBot](../assets/screenshots/campaign_2.png)
+![SocialVibe](../assets/screenshots/campaign_2.png)
 
 
 

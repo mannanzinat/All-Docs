@@ -5,7 +5,7 @@ sidebar_label:  Setup language
 
 # Setup language
 
-![SaleBot](../assets/screenshots/language_settings.png)
+![SocialVibe](../assets/screenshots/language_settings.png)
 
 To configure **Language** follow the procedure mentioned below:
 

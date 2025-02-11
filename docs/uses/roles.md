@@ -10,11 +10,11 @@ To Manage **Roles** related settings for your application follow the proceduresâ
 - Go to **Admin Panel** &  click **Staff** and can see two options *All Staff* and *Roles*
 - Here you can add new roles for the website.
 
-![SaleBot](../assets/screenshots/staff_roles_1.png)
+![SocialVibe](../assets/screenshots/staff_roles_1.png)
 
 - You can also turn on or turn off specific roles.
 
-![SaleBot](../assets/screenshots/staff_roles_2.png)
+![SocialVibe](../assets/screenshots/staff_roles_2.png)
 
 
 

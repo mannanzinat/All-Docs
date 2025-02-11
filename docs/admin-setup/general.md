@@ -10,5 +10,5 @@ To setup **General Settings** follow the procedures…
 - Go to **Admin Panel** &  click **System Settings**
 - Then go to **General Settings** and here we can set **system name, default language, currency, icon** etc.
 
-![SaleBot](../assets/screenshots/general_settings.png)
+![SocialVibe](../assets/screenshots/general_settings.png)
 

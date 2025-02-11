@@ -50,6 +50,13 @@ If all the requirements are fulfilled then click on Next
 
 ![Docusaurus Plushie](../assets/install/installation-step-2.png)
 
+
+Please provide your database credentials and activation code, then click 'Next' to continue.
+
+![Docusaurus Plushie](../assets/install/installation-step-3.png)
+
+Kindly provide your Admin login credentials and click 'Finish' to complete the process.
+
 Your database connection details:
 
 - **Database Host**: your hosting name, e.g localhost

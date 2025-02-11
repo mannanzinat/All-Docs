@@ -156,7 +156,6 @@ nav:
     - Installation: installation.md
   - Admin Setup:
       - General Setting: admin-setup/general.md
-      - Preference: admin-setup/preference.md
       - Currency Setting: admin-setup/currency.md
       - Email Setting: admin-setup/email.md
       - Language Setting: admin-setup/language.md
@@ -180,7 +179,7 @@ nav:
       - Staff:
         - uses/all-staff.md
         - uses/roles.md
-      - Website Settings: uses/website-settings.md
+      - Settings: uses/website-settings.md
       - AI Assistant: uses/ai_assistant.md
       - Subscription:
         - uses/price-plan.md

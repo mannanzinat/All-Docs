@@ -10,6 +10,6 @@ To Manage **Organization** follow the procedures…
 - Go to **Admin Panel** &  click **Manage Organization**
 - Then go to **Organization List** and explore.
 
-![FacultyLMS](../assets/faculty/organization_list.png)
+![SocialVibe](../assets/faculty/organization_list.png)
 
 

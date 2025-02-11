@@ -9,11 +9,11 @@ To Manage **Team Member** related settings for your application follow the proce
 
 - Login as **client** &  click **team member** for all team member list
 
-![SaleBot](../assets/screenshots/team_member_1.png)
+![SocialVibe](../assets/screenshots/team_member_1.png)
 
 - You can edit **team member** details from the list.
 
-![SaleBot](../assets/screenshots/team_member_2.png)
+![SocialVibe](../assets/screenshots/team_member_2.png)
 
 
 

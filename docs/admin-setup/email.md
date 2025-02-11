@@ -16,7 +16,7 @@ Yoori e-Commerce CMS supports **SMTP, SendGrid, MailGun, SendMail**
 - **Attention** (*This email setting is a must to verify email to send news to the subscriber.*)
 - Fill up the form as below:
 
-![SaleBot](../assets/screenshots/email_settings.png)
+![SocialVibe](../assets/screenshots/email_settings.png)
 
 - **MAIL_HOST** – Email host e.g smtp.mailtrap.io
 - **MAIL_PORT** – Outgoing email port e.g 2525 or 465

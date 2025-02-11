@@ -4,13 +4,13 @@ sidebar_label:  Website Setup & Content
 ---
 Different **website settings** can be updated and changed from here. It brings customizable access to change it anytime and update features quite seamlessly.
 
-![SaleBot](../assets/screenshots/website_settings.png)
+![SocialVibe](../assets/screenshots/website_settings.png)
 
 # Theme Option
 
 | Title            | Description           |
 |------------------|-----------------------|
-| **Theme Option**  | Different Theme options can be set from here includes light logo, dark logo, icon, fonts. |
+| **Theme Option**  | Theme options can be set from here includes light logo, dark logo, icon, fonts. |
 
 -----
 
@@ -35,19 +35,6 @@ Different **website settings** can be updated and changed from here. It brings c
 
 ---
 
-# Partner Logo
-| Title            | Description                                               |
-|------------------|-----------------------------------------------------------|
-| **Partner Logo** | From this section, partner's logo can be added from here. |
-
----
-# Story
-| Title     | Description                                             |
-|-----------|---------------------------------------------------------|
-| **Story** | Different story with images and message can be updated. |
-
----
-
 # Unique Feature
 | Title              | Description                                                          |
 |--------------------|----------------------------------------------------------------------|
@@ -59,13 +46,6 @@ Different **website settings** can be updated and changed from here. It brings c
 | Title       | Description                                                                                  |
 |-------------|----------------------------------------------------------------------------------------------|
 | **Feature** | Feature provide the information about the core and exclusive usable features of the website. |
-
----
-
-# AI Chat
-| Title       | Description                                                          |
-|-------------|----------------------------------------------------------------------|
-| **AI Chat** | AI chat give the option to get connected with different AI features. |
 
 ---
 
