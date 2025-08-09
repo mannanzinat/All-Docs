@@ -13,7 +13,7 @@ Follow the steps below to generate your API Key.
 ## 1. Create a Rapiwa Account
 - Visit [rapiwa.com/register](https://rapiwa.com/register) and complete the registration form.
 
-![Registration Page](./register.jpg)
+![Registration Page](../assets/api/register.jpg)
 
 ---
 
@@ -42,15 +42,15 @@ Follow the steps below to generate your API Key.
 ## 6. Manage Your Device
 - Click the **Manage** button next to the device you have added.
 
-![Manage Device](./manage_device.jpg)
+![Manage Device](../assets/api/manage_device.jpg)
 
 ---
 
 ## 7. Retrieve Your API Key
 - Your **API Key** will be displayed on the device management screen.
 
-![API Key](./api_key.jpg)
+![API Key](../assets/api/api_key.jpg)
 
 ---
 
-> 💡 **Tip:** Keep your API Key secure. Never share it publicly or commit it to version control systems.
+> 💡 **Tip:** Keep your API Key secure. Never share it publicly.
