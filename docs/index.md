@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: Technical Documentation
+title: Rapiwa API Documentation
 ---
 
 Welcome to Material for MkDocs.

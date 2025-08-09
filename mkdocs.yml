@@ -187,3 +187,36 @@ nav:
       - Email: uses/email.md
       - Team Member: uses/team-member.md
       - Support Ticket: uses/my-ticket.md
+  - API:
+      - API KEY: api/token.md
+      - General Setting: admin-setup/general.md
+      - Currency Setting: admin-setup/currency.md
+      - Email Setting: admin-setup/email.md
+      - Language Setting: admin-setup/language.md
+      - Cache Setting: admin-setup/cache.md
+      - Admin Panel Setting: admin-setup/admin-panel.md
+      - Firebase Setting: admin-setup/firebase.md
+      - Storage Setting: admin-setup/storage.md
+      - Misc. Setting: admin-setup/misc.md
+      - Payment Gateway: admin-setup/payment-gateway.md
+      - Website Setting: admin-setup/website.md
+      - Pages: admin-setup/pages.md
+      - Social Platform:
+        - admin-setup/social_platform/facebook.md
+        - admin-setup/social_platform//instagram.md
+        - admin-setup/social_platform//linkedin.md
+        - admin-setup/social_platform//x.md
+      - Utility: utility/index.md
+#      - Connect Social Account: client/connect_social_account.md
+      - Staff:
+        - uses/all-staff.md
+        - uses/roles.md
+      - Settings: uses/website-settings.md
+      - AI Assistant: uses/ai_assistant.md
+      - Subscription:
+        - uses/price-plan.md
+        - uses/subscription.md
+      - Support: uses/support.md
+      - Email: uses/email.md
+      - Team Member: uses/team-member.md
+      - Support Ticket: uses/my-ticket.md
