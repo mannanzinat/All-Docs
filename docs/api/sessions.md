@@ -16,24 +16,16 @@ Use this endpoint to get the current QR code image or string to scan in your Wha
 GET https://www.rapiwa.com/session/{API_Key}/qr
 ```
 
-**Body:**
-
-```bash
-{
-  "number": "88017XXXXXXXX",
-  "message_type": "text",
-  "message": "Hello from Postman!"
-}
-```
-
 **Response:**
 
 ```bash
 {
-    "success": true,
-    "message_type": "text",
-    "message_id": "3EB0C9C1719F058FFABB63",
-    "to": "88017XXXXXXXX@s.whatsapp.net"
+  <html>
+    <head><meta http-equiv="refresh" content="10" /></head>
+    <body style="text-align: center; font-family: sans-serif;">
+      <img style="margin:auto;" src="data:image/png;base64,....." />
+    </body>
+  </html>
 }
 ```
 
