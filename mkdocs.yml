@@ -163,4 +163,7 @@ nav:
     - Send Image Message: api/send-image-message.md
     - Send Video Message: api/send-video-message.md
     - Send Document Message: api/send-document-message.md
+    - Send Audio Message: api/send-audio-message.md
+    - Send Location: api/send-location.md
+    - Send Quoted Message: api/send-quoted-message.md
 
