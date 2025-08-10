@@ -32,6 +32,12 @@ Use this endpoint to send basic text messages. You can specify a single recipien
 POST https://www.rapiwa.com/session/{API_Key}/send-message
 ```
 
+### Header
+
+```http
+Content-Type: application/json
+```
+
 ### Body
 
 ```http

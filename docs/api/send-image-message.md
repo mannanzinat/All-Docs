@@ -39,6 +39,12 @@ You can optionally include caption text in the message parameter.
 POST https://www.rapiwa.com/session/{API_Key}/send-message
 ```
 
+### Header
+
+```http
+Content-Type: application/json
+```
+
 ### Body
 
 ```http

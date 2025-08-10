@@ -9,7 +9,7 @@ Sends a message with an document attached via a URL.
 Send a message that includes an document. Provide the document via a publicly accessible URL in the media_url parameter. 
 
 ****
-> 💡 **Note:** Most common document types are supported (PDF, DOCX, XLSX, etc.).
+> 💡 **Note:** Most common document types are supported (PDF, DOCX, XLSX, etc.)
 
 
 ---
@@ -35,6 +35,12 @@ Send a message that includes an document. Provide the document via a publicly ac
 
 ```http
 POST https://www.rapiwa.com/session/{API_Key}/send-message
+```
+
+### Header
+
+```http
+Content-Type: application/json
 ```
 
 ### Body
