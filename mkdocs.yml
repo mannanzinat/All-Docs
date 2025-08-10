@@ -23,7 +23,7 @@ site_name: Documentation
 site_url:
 site_author: SpaGreen Creative
 site_description: >-
-  Meet SocialVibe—an AI-powered platform that automates social media marketing. Save time, boost engagement, and manage posts effortlessly with real-time insights and an intuitive dashboard.
+ Rapiwa provides a powerful and low cost WhatsApp API for developers to integrate messaging, automation into their applications.
 
 # Repository
 repo_name:
@@ -62,18 +62,19 @@ theme:
     - toc.follow
     # - toc.integrate
   palette:
-    - scheme:
-      primary: light blue
-      accent:
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate
-      primary: blue
-      accent:
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+  - scheme: slate
+    primary: blue
+    toggle:
+      default: true
+      icon: material/weather-sunny
+      name: Switch to light mode
+
+  - scheme: light
+    primary: light blue
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+
   font:
     text: Outfit
     code: Roboto Mono
@@ -167,4 +168,5 @@ nav:
     - Send Location: api/send-location.md
     - Send Quoted Message: api/send-quoted-message.md
     - Delete a Message: api/delete-a-message.md
+    - Send Bulk Message: api/send-bulk-message.md
 
