@@ -20,7 +20,7 @@ Follow the steps below to generate your API Key.
 ## 2. Log In to Your Account
 - Go to [rapiwa.com/login](https://rapiwa.com/login) and sign in with your credentials.
 
-![Login Page](./login.jpg)
+![Login Page](../assets/api/login.jpg)
 
 ---
 

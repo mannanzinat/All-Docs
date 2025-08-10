@@ -156,4 +156,11 @@ nav:
     - API Key: api/api-key.md
   - Sessions:
     - Get WhatsApp Session QR Code: api/sessions.md
+    - Session User Info: api/session-user-info.md
+    - Session Logout: api/session-logout.md
+  - Messages:
+    - Send Text Message: api/send-text-message.md
+    - Send Image Message: api/send-image-message.md
+    - Send Video Message: api/send-video-message.md
+    - Send Document Message: api/send-document-message.md
 

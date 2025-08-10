@@ -16,7 +16,8 @@ Use this endpoint to get the current QR code image or string to scan in your Wha
 GET https://www.rapiwa.com/session/{API_Key}/qr
 ```
 
-**Response:**
+###**Response:**
+
 
 ```bash
 {
