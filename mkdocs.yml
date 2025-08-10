@@ -166,4 +166,5 @@ nav:
     - Send Audio Message: api/send-audio-message.md
     - Send Location: api/send-location.md
     - Send Quoted Message: api/send-quoted-message.md
+    - Delete a Message: api/delete-a-message.md
 
