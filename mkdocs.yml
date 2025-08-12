@@ -82,7 +82,7 @@ theme:
     text: Outfit
     code: Roboto Mono
   favicon: assets/favicon.png
-  logo: assets/logo.png
+  logo: assets/logo-color.png
 
 # Plugins
 plugins:

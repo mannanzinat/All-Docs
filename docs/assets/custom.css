@@ -16,12 +16,49 @@
   linear-gradient(to bottom, var(--md-primary-fg-color), #359a7a 50%, #cfea11 99%, var(--md-default-bg-color) 99%)!important;
 }
 
-@media screen and (min-width: 60em) {
-        [data-md-color-primary=blue] .md-search__form {
-        background-color: #8f8f8f42;
-        border-radius: .1rem;
-        height: 1.8rem;
-    }
+/* Show light logo in light mode */
+.md-header__button.md-logo img {
+  display: none;
+}
+
+[data-md-color-primary=light-blue] .md-header__button.md-logo {
+  background: url('../assets/logo.png') no-repeat center;
+  background-size: contain;
+  width: 180px;
+  height: 50px;
+  margin: .3rem .4rem;
+  display: block;
+}
+
+[data-md-color-primary=light-blue] .md-header__button.md-logo:hover {
+  background: url('../assets/logo.png') no-repeat center;
+  background-size: contain;
+  width: 180px;
+  height: 50px;
+  margin: .3rem .4rem;
+  display: block;
+  z-index: 999;
+  opacity: none;
+}
+
+[data-md-color-primary=blue] .md-header__button.md-logo {
+  background: url('../assets/logo-color.png') no-repeat center;
+  background-size: contain;
+  width: 180px;
+  height: 50px;
+  margin: .3rem .4rem;
+  display: block;
+}
+
+[data-md-color-primary=blue] .md-header__button.md-logo :hover {
+  background: url('../assets/logo-color.png') no-repeat center;
+  background-size: contain;
+  width: 180px;
+  height: 50px;
+  margin: .3rem .4rem;
+  display: block;
+  z-index: 999;
+  opacity: none;
 }
 
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
@@ -51,6 +88,10 @@
     color: #359a7a;
 }
 
+.md-clipboard:focus, .md-clipboard:hover {
+    color: #359a7a;
+}
+
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
   height: 1.9rem;
 }
@@ -58,4 +99,8 @@
 .mdx-container {
     background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill:%23ffffff' /></svg>") no-repeat bottom,
                 linear-gradient(to bottom, var(--md-primary-fg-color), #359a7a 50%, #cfea11 99%, var(--md-default-bg-color) 99%) !important;
+}
+
+.md-banner {
+  display: none;
 }
