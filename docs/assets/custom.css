@@ -24,8 +24,17 @@
     }
 }
 
+.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+  color: #359a7a;
+}
 
+[data-md-color-primary=blue] .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+  color: #359a7a !important;
+}
 
+.md-nav__link[for]:focus, .md-nav__link[for]:hover, .md-nav__link[href]:focus, .md-nav__link[href]:hover {
+  color: #359a7a;
+}
 
 [data-md-color-primary=blue] {
   --md-primary-fg-color: #000;
