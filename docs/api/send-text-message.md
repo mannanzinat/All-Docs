@@ -56,7 +56,7 @@ Content-Type: application/json
     "success": true,
     "message_type": "text",
     "message_id": "3EB0FAC204D805F0E22293",
-    "to": "8801759594891@s.whatsapp.net"
+    "to": "88017XXXXXXXXX"
 }
 ```
 
