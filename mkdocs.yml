@@ -75,11 +75,14 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+      extra_css:
+        - stylesheets/extra.css
   font:
     text: Roboto
     code: Roboto Mono
   favicon: assets/delix_images/favicon.png
   logo: assets/delix_images/logo.png
+
 
 # Plugins
 plugins:
@@ -186,7 +189,7 @@ nav:
 #  - Changelog:
 #      - changelog/index.md
 
-  - Merchant App:
+  - User App:
       - App Basics:
          - Recommendation: studentApp/recommendation.md
          - Installation: studentApp/installation.md
@@ -222,7 +225,7 @@ nav:
          - Release your app on TestFlight: studentApp/release-on-testflight.md
          - Release your app to the App Store: studentApp/release-on-app-store.md
 #
-  - Rider App:
+  - Smart TV App:
       - App Basics:
          - Recommendation: instructorApp/recommendation.md
          - Installation: instructorApp/installation.md
