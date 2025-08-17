@@ -4,12 +4,12 @@ sidebar_label:   General Settings
 ---
 
 
-# General Settings
+# Settings
 
-To Manage **General Settings** follow the procedures…
+To Manage **Settings** follow the procedures…
 
-- Select **General Settings** in the left menu of **System Settings**
+- Select **System Settings** in the left menu of **Settings**
 - You can update your own business information from here. 
 - For example, **Company Name**,**Brand Tagline**,**Default Language**,**Currency**,**Time Zone** and many more preferable settings can be updated from here.
 
-![Vidflix](../assets/vidflix_images/setup/system_settings.png)
+![Vidflix](../assets/vidflix_images/setup/admin-system-settings.png)

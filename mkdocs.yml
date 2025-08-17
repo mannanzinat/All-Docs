@@ -23,7 +23,7 @@ site_name: Documentation
 site_url:
 site_author: SpaGreen Creative
 site_description: >-
-  Vidflix is your personal streaming platform. Enjoy your favorite movies and TV shows anytime, anywhere.
+  VidFlix is your personal streaming platform. Enjoy your favorite movies and TV shows anytime, anywhere.
 
 
 # Repository
@@ -64,7 +64,7 @@ theme:
     # - toc.integrate
   palette:
     - scheme: default
-      primary: pink
+      primary: red
       accent: pink
       toggle:
         icon: material/brightness-7
@@ -126,8 +126,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-#      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-#      emoji_index: !!python/name:material.extensions.emoji.twemoji
+    #  emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    #  emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -161,14 +161,14 @@ nav:
   - Setup:
       - setup/index.md
       - General Setting: vidflix-usage/general.md
-      - Preference: vidflix-usage/preference.md
+      - Admin Settings: vidflix-usage/admin-settings.md
+      - Manage Video Type: vidflix-usage/video-type.md  
       - Language Setting: vidflix-usage/language.md
-      - Payout Method: vidflix-usage/payout-method.md
+      - Payment Method: vidflix-usage/payout-method.md
+      - Email Settings: vidflix-usage/email-settings.md
       - Default Charges: vidflix-usage/default-charge.md
       - Packaging Charges: vidflix-usage/packaging-charge.md
-      - Pusher Settings: vidflix-usage/pusher.md
-      - OneSignal Settings: vidflix-usage/onesignal.md
-      - SMS Settings: vidflix-usage/sms_settings.md
+
   - Usage:
 #      - uses/index.md
       - Merchant:
