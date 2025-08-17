@@ -126,8 +126,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
+#      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+#      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -191,73 +191,73 @@ nav:
 
   - User App:
       - App Basics:
-         - Recommendation: studentApp/recommendation.md
-         - Installation: studentApp/installation.md
-         - Prepare Flutter Environment: studentApp/prepare-flutter-environment.md
+         - Recommendation: user-app/recommendation.md
+         - Installation: user-app/installation.md
+         - Prepare Flutter Environment: user-app/prepare-flutter-environment.md
 
       - Common Setup:
-         - Google Firebase Setup: studentApp/google-firebase-setup.md
-         - Social Login Setup: studentApp/social-login-setup.md
-         - Change Api Server Details: studentApp/change-api-server-details.md
-         - Change App Logo: studentApp/change-app-logo.md
-         - Change Splash Screen Logo: studentApp/change-splash-screen-logo.md
+         - Google Firebase Setup: user-app/google-firebase-setup.md
+         - Social Login Setup: user-app/social-login-setup.md
+         - Change Api Server Details: user-app/change-api-server-details.md
+         - Change App Logo: user-app/change-app-logo.md
+         - Change Splash Screen Logo: user-app/change-splash-screen-logo.md
 
       - Android Setup:
-         - Change App Name: studentApp/change-app-name.md
-         - Change Android Launcher Icon: studentApp/change-android-launcher-icon.md
-         - Change Android Package Name: studentApp/change-android-package-name.md
-         - Generate Debug APK: studentApp/generate-debug-apk.md
-         - Generate Signed APK: studentApp/generate-signed-apk.md
+         - Change App Name: user-app/change-app-name.md
+         - Change Android Launcher Icon: user-app/change-android-launcher-icon.md
+         - Change Android Package Name: user-app/change-android-package-name.md
+         - Generate Debug APK: user-app/generate-debug-apk.md
+         - Generate Signed APK: user-app/generate-signed-apk.md
 
 
       - IOS Setup:
-         - Preliminaries: studentApp/preliminaries.md
-         - Register App On AppStore: studentApp/register-app-appstore.md
-         - Create Application Record on AppStore : studentApp/create-application-record.md
-         - Review Xcode project settings:  studentApp/review-xcode-project-settings.md
-         - Updating the app deployment version: studentApp/updating-app-development-version.md
-         - Add an app icon: studentApp/add-an-app-icon.md
-         - Build archive and Submit To AppStore: studentApp/build-archive-and-submit.md
-         - Update the app build and version numbers: studentApp/update-app-build.md
-         - Create An App Bundle: studentApp/create-app-bundle.md
-         - Upload App Bundle To App Store Connect:  studentApp/upload-app-bundle.md
-         - Updating the app deployment version: studentApp/update-app-development-version.md
-         - Release your app on TestFlight: studentApp/release-on-testflight.md
-         - Release your app to the App Store: studentApp/release-on-app-store.md
+         - Preliminaries: user-app/preliminaries.md
+         - Register App On AppStore: user-app/register-app-appstore.md
+         - Create Application Record on AppStore : user-app/create-application-record.md
+         - Review Xcode project settings:  user-app/review-xcode-project-settings.md
+         - Updating the app deployment version: user-app/updating-app-development-version.md
+         - Add an app icon: user-app/add-an-app-icon.md
+         - Build archive and Submit To AppStore: user-app/build-archive-and-submit.md
+         - Update the app build and version numbers: user-app/update-app-build.md
+         - Create An App Bundle: user-app/create-app-bundle.md
+         - Upload App Bundle To App Store Connect:  user-app/upload-app-bundle.md
+         - Updating the app deployment version: user-app/update-app-development-version.md
+         - Release your app on TestFlight: user-app/release-on-testflight.md
+         - Release your app to the App Store: user-app/release-on-app-store.md
 #
   - Smart TV App:
       - App Basics:
-         - Recommendation: instructorApp/recommendation.md
-         - Installation: instructorApp/installation.md
-         - Prepare Flutter Environment: instructorApp/prepare-flutter-environment.md
+         - Recommendation: smart-tv-app/recommendation.md
+         - Installation: smart-tv-app/installation.md
+         - Prepare Flutter Environment: smart-tv-app/prepare-flutter-environment.md
 
       - Common Setup:
-         - Change Api Server Details: instructorApp/change-api-server-details.md
-         - Change App Logo: instructorApp/change-app-logo.md
-         - Change Splash Screen Logo: instructorApp/change-splash-screen-logo.md
+         - Change Api Server Details: smart-tv-app/change-api-server-details.md
+         - Change App Logo: smart-tv-app/change-app-logo.md
+         - Change Splash Screen Logo: smart-tv-app/change-splash-screen-logo.md
 
       - Android Setup:
-         - Change App Name: instructorApp/change-app-name.md
-         - Change Android Launcher Icon: instructorApp/change-android-launcher-icon.md
-         - Change Android Package Name: instructorApp/change-android-package-name.md
-         - Generate Debug APK: instructorApp/generate-debug-apk.md
-         - Generate Signed APK: instructorApp/generate-signed-apk.md
+         - Change App Name: smart-tv-app/change-app-name.md
+         - Change Android Launcher Icon: smart-tv-app/change-android-launcher-icon.md
+         - Change Android Package Name: smart-tv-app/change-android-package-name.md
+         - Generate Debug APK: smart-tv-app/generate-debug-apk.md
+         - Generate Signed APK: smart-tv-app/generate-signed-apk.md
 
 
       - IOS Setup:
-         - Preliminaries: instructorApp/preliminaries.md
-         - Register App On AppStore: instructorApp/register-app-appstore.md
-         - Create Application Record on AppStore: instructorApp/create-application-record.md
-         - Review Xcode project settings: instructorApp/review-xcode-project-settings.md
-         - Updating the app deployment version: instructorApp/updating-app-development-version.md
-         - Add an app icon: instructorApp/add-an-app-icon.md
-         - Build archive and Submit To AppStore: instructorApp/build-archive-and-submit.md
-         - Update the app build and version numbers: instructorApp/update-app-build.md
-         - Create An App Bundle: instructorApp/create-app-bundle.md
-         - Upload App Bundle To App Store Connect: instructorApp/upload-app-bundle.md
-         - Updating the app deployment version: instructorApp/update-app-development-version.md
-         - Release your app on TestFlight: instructorApp/release-on-testflight.md
-         - Release your app to the App Store: instructorApp/release-on-app-store.md
+         - Preliminaries: smart-tv-app/preliminaries.md
+         - Register App On AppStore: smart-tv-app/register-app-appstore.md
+         - Create Application Record on AppStore: smart-tv-app/create-application-record.md
+         - Review Xcode project settings: smart-tv-app/review-xcode-project-settings.md
+         - Updating the app deployment version: smart-tv-app/updating-app-development-version.md
+         - Add an app icon: smart-tv-app/add-an-app-icon.md
+         - Build archive and Submit To AppStore: smart-tv-app/build-archive-and-submit.md
+         - Update the app build and version numbers: smart-tv-app/update-app-build.md
+         - Create An App Bundle: smart-tv-app/create-app-bundle.md
+         - Upload App Bundle To App Store Connect: smart-tv-app/upload-app-bundle.md
+         - Updating the app deployment version: smart-tv-app/update-app-development-version.md
+         - Release your app on TestFlight: smart-tv-app/release-on-testflight.md
+         - Release your app to the App Store: smart-tv-app/release-on-app-store.md
 
 
 
