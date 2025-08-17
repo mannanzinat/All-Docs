@@ -17,6 +17,6 @@ To Manage **SMS Settings** follow the procedures…
 - To get proper notifications, you must set up SMS service provider credentials correctly and set the preferences.
 - Otherwise, SMS might not work properly
 
-![Delix](../assets/delix_images/setup/sms_preference.png)
+![Vidflix](../assets/vidflix_images/setup/sms_preference.png)
 
 

@@ -13,5 +13,5 @@ To Manage **Payout Requestt** follow the procedures…
 
 - He can also see the details payout logs of previous transactions.
 
-![Delix](../assets/delix_images/Merchant_images/payout_logs.png)
+![Vidflix](../assets/vidflix_images/Merchant_images/payout_logs.png)
 

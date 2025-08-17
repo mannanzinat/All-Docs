@@ -12,4 +12,4 @@ To Manage **Language** follow the procedures…
 - You can add **Language** from here.
 - **English is the default language here.**
 
-![Delix](../assets/delix_images/setup/language.png)
+![Vidflix](../assets/vidflix_images/setup/language.png)

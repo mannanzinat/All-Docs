@@ -25,7 +25,7 @@ Here you can update your system with latest version .
 Here you can find various type of server information like system information, server information, extension
 Library and file system permission .
 
-![Delix](../assets/delix_images/Others/server_information.png)
+![Vidflix](../assets/vidflix_images/Others/server_information.png)
 
 
 **Update Server Information**

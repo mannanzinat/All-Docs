@@ -14,5 +14,5 @@ To Manage **Pickup Assign** follow the procedures…
 
 - Branch manager can see the details parcel list in his own branch.
 
-![Delix](../assets/delix_images/Branch_images/branch_parcel_list.png)
+![Vidflix](../assets/vidflix_images/Branch_images/branch_parcel_list.png)
 

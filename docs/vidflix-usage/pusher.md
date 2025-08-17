@@ -25,6 +25,6 @@ To Manage **Pusher Settings** follow the procedures…
 
 - Click the App Keys sidebar menu once the app has been built, and you will see the app keys
 
-![Delix](../assets/delix_images/setup/pusher3.png)
+![Vidflix](../assets/vidflix_images/setup/pusher3.png)
 
 - Copy the keys individually, one by one, and paste them into the Pusher settings, then active the status and click on the submit button.

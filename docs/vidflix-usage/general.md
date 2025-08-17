@@ -12,4 +12,4 @@ To Manage **General Settings** follow the procedures…
 - You can update your own business information from here. 
 - For example, **Company Name**,**Brand Tagline**,**Default Language**,**Currency**,**Time Zone** and many more preferable settings can be updated from here.
 
-![Delix](../assets/delix_images/setup/system_settings.png)
+![Vidflix](../assets/vidflix_images/setup/system_settings.png)

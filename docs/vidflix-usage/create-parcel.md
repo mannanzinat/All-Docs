@@ -13,7 +13,7 @@ Merchant can create parcel from his account.
 - Merchant will select the specific branch for his parcel to deliver.
 - Merchant can add parcel with specific details.
 
-![Delix](../assets/delix_images/Merchant_images/add_parcel.png)
+![Vidflix](../assets/vidflix_images/Merchant_images/add_parcel.png)
 
 
 

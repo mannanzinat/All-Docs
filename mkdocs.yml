@@ -23,7 +23,7 @@ site_name: Documentation
 site_url:
 site_author: SpaGreen Creative
 site_description: >-
-  Delix is a Delivery and Courier Management SaaS solution that streamlines the entire package lifecycle, from pickup to delivery. Designed for efficient parcel management, it offers real-time tracking, payment processing for merchants and riders, and ensures secure, on-time deliveries.
+  Vidflix is your personal streaming platform. Enjoy your favorite movies and TV shows anytime, anywhere.
 
 
 # Repository
@@ -80,8 +80,8 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/delix_images/favicon.png
-  logo: assets/delix_images/logo.png
+  favicon: assets/vidflix_images/favicon.png
+  logo: assets/vidflix_images/logo.png
 
 
 # Plugins
@@ -126,8 +126,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -155,33 +155,33 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
-    - Introduction: delix-usage/getting-started.md
+    - Introduction: vidflix-usage/getting-started.md
     - Requirements: requirements.md
     - Installation: installation.md
   - Setup:
       - setup/index.md
-      - General Setting: delix-usage/general.md
-      - Preference: delix-usage/preference.md
-      - Language Setting: delix-usage/language.md
-      - Payout Method: delix-usage/payout-method.md
-      - Default Charges: delix-usage/default-charge.md
-      - Packaging Charges: delix-usage/packaging-charge.md
-      - Pusher Settings: delix-usage/pusher.md
-      - OneSignal Settings: delix-usage/onesignal.md
-      - SMS Settings: delix-usage/sms_settings.md
+      - General Setting: vidflix-usage/general.md
+      - Preference: vidflix-usage/preference.md
+      - Language Setting: vidflix-usage/language.md
+      - Payout Method: vidflix-usage/payout-method.md
+      - Default Charges: vidflix-usage/default-charge.md
+      - Packaging Charges: vidflix-usage/packaging-charge.md
+      - Pusher Settings: vidflix-usage/pusher.md
+      - OneSignal Settings: vidflix-usage/onesignal.md
+      - SMS Settings: vidflix-usage/sms_settings.md
   - Usage:
 #      - uses/index.md
       - Merchant:
-        - delix-usage/create-parcel.md
-        - delix-usage/add-shop.md
-        - delix-usage/payout-request.md
-        - delix-usage/default-payment-account.md
+        - vidflix-usage/create-parcel.md
+        - vidflix-usage/add-shop.md
+        - vidflix-usage/payout-request.md
+        - vidflix-usage/default-payment-account.md
       - Branch Manager:
-        - delix-usage/pickup-assign.md
+        - vidflix-usage/pickup-assign.md
       - Delivery Man:
-        - delix-usage/pickup-delivery.md
+        - vidflix-usage/pickup-delivery.md
   - Utility:
-      - delix-usage/utility.md
+      - vidflix-usage/utility.md
 
 #  - Addon:
 #      - Addon:

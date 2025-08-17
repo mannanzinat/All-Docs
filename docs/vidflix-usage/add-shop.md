@@ -14,6 +14,6 @@ To Manage **Add Shop** follow the procedures…
 
 - He also can see his shop list and shop details.
 
-![Delix](../assets/delix_images/Merchant_images/shop_list.png)
+![Vidflix](../assets/vidflix_images/Merchant_images/shop_list.png)
 
 

@@ -25,7 +25,7 @@ To Manage **Onesignal Settings** follow the procedures…
 - Now it's time to locate the API Keys.
 - Navigate to your OneSignal dashboard and locate the API Keys section that need to be added in System Settings->OneSignal in your SaleBot admin panel.
 
-![Delix](../assets/delix_images/setup/onesignal3.png)
+![Vidflix](../assets/vidflix_images/setup/onesignal3.png)
 
 - Copy the keys individually, one by one, and paste them into the SaleBot OneSignal settings, then active the status and click on the submit button. This step ensures seamless communication between your application and OneSignal for effective push notification management.
 - Once done, you're all set to leverage the power of push notifications to engage with your users effectively.

@@ -12,4 +12,4 @@ To Manage **Packaging Charges** follow the procedures…
 - Different price can be set for separate types of packaging. 
 
 
-![Delix](../assets/delix_images/setup/packaging_types.png)
+![Vidflix](../assets/vidflix_images/setup/packaging_types.png)

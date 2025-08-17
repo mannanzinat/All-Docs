@@ -9,6 +9,6 @@ sidebar_label: Pickup and Delivery
 - He can see the details of the parcel and it's timeline.
 - He will be assigned by the Branch manager to deliver or pickup.
 
-![Delix](../assets/delix_images/Branch_images/delivery_man.png)
+![Vidflix](../assets/vidflix_images/Branch_images/delivery_man.png)
 
 

@@ -48,7 +48,7 @@ Open browser and hit you server URL. Example: https://example.com/
 
 If all the requirements are fulfilled then click on Next
 
-![Delix](assets/delix_images/Others/installation_2.png)
+![Vidflix](assets/vidflix_images/Others/installation_2.png)
 
 Your database connection details:
 
