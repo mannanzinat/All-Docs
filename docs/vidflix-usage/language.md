@@ -1,15 +1,24 @@
 ---
-title:   Language
-sidebar_label:   Language
+title: Languages Settings
+sidebar_label: Languages Settings
 ---
 
+# Languages Settings
 
-# Language
+To configure **Languages Settings**, follow these steps:
 
-To Manage **Language** follow the procedures…
+1. From the left sidebar, go to **Settings**.  
+2. Click on **Languages**.  
+3. Manage the available languages and their settings as needed.
 
-- Select **Language** in the left menu of **Settings**
-- You can add **Language** from here.
-- **English is the default language here.**
+## Available Options
 
-![Vidflix](../assets/vidflix_images/setup/language-settings.png)
+- **#** – Displays the sequence number of the language.  
+- **Language** – Shows the name of the language (e.g., Bangla, English).  
+- **Locale** – Indicates the locale code (e.g., BD, EN).  
+- **Status** – Toggle to enable or disable the language.  
+- **Option** – Provides actions like edit or delete for each language entry.
+
+After making changes, use the **Add Language** button to add new languages or the **Save** option to update existing settings.
+
+![Languages Settings](../assets/vidflix_images/setup/admin-language.png)

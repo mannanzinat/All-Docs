@@ -20,7 +20,7 @@ To Manage **System Update** follow the procedures…
 
  Here you can update your system with latest version .
 
-![FacultyLMS](../assets/faculty/system_update.png)
+![FacultyLMS](../assets/vidflix_images/setup/utility.png)
 
 
 

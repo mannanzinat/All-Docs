@@ -1,15 +1,23 @@
 ---
-title:   Admin Settings
-sidebar_label:   Admin Settings
+title: Admin Settings
+sidebar_label: Admin Settings
 ---
 
+# Admin Settings
 
-# Settings
+To manage **Admin Settings**, follow these steps:
 
-To Manage **Settings** follow the procedures…
+1. From the left sidebar, go to **Settings**.  
+2. Click on **Admin Settings**.  
+3. Update your admin panel branding information as needed.  
 
-- Select **Admin Settings** in the left menu of **Settings**
-- You can update your own business information from here. 
-- For example, **Logo**,**Logo Mini**,**Fev Icon**,**Copyright** settings can be updated from here.
+## Available Options
 
-![Vidflix](../assets/vidflix_images/setup/admin-settings.png)
+- **Logo (100x36)** – Upload the main logo for the admin panel (recommended size: 100x36 pixels).  
+- **Mini Logo (1:1)** – Upload a square logo, usually displayed in compact areas (recommended size: 80x80 pixels).  
+- **Favicon** – Upload the favicon icon that appears in the browser tab (recommended size: 80x80 pixels).  
+- **Copyright Text** – Add your custom copyright text that will be shown in the footer.  
+
+After making changes, click the **Submit** button to save settings.  
+
+![Admin Settings](../assets/vidflix_images/setup/admin-admin-settings.png)

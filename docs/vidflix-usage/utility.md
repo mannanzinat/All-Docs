@@ -3,20 +3,20 @@ title:   Utility
 sidebar_label: Utility
 ---
 
-# System Update
+# Server Configuration
 
-To Manage **System Update** follow the procedures…
+To Manage **Server Configuration** follow the procedures…
 
 Select **Utility** in the left menu of the admin area.
 
 &nbsp;
 
 
-**System Update**
+**Server Configuration**
 
 Here you can update your system with latest version .
 
-![Delix](../assets/delix_images/Others/system_update.png)
+![Delix](../assets/vidflix_images/setup/utility.png)
 
 
 
