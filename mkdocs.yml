@@ -23,7 +23,7 @@ site_name: Documentation
 site_url:
 site_author: SpaGreen Creative
 site_description: >-
-  VidFlix is your personal streaming platform. Enjoy your favorite movies and TV shows anytime, anywhere.
+  VidFlix – AI Powered OTT CMS for Movies Series and Live TV
 
 
 # Repository
@@ -31,7 +31,7 @@ repo_name:
 repo_url:
 
 # Copyright
-copyright: Copyright &copy; 2019 - 2024 SpaGreen Creative
+copyright: Copyright &copy; 2019 - 2025 SpaGreen Creative
 
 # Configuration
 theme:
@@ -63,15 +63,15 @@ theme:
     - toc.follow
     # - toc.integrate
   palette:
-    - scheme: default
-      primary: red
-      accent: red
+    - scheme: custom
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: red
-      accent: red
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -159,11 +159,10 @@ nav:
     - Requirements: requirements.md
     - Installation: installation.md
   - Setup:
-      - setup/index.md
       - System Settings: vidflix-usage/general.md
       - Admin Settings: vidflix-usage/admin-settings.md
       - TMDB settings: vidflix-usage/tmdb-settings.md
-      - Manage Video Type: vidflix-usage/video-type.md  
+      - Manage Video Type: vidflix-usage/video-type.md
       - Language Setting: vidflix-usage/language.md
       - Payment Method: vidflix-usage/payout-method.md
       - Email Settings: vidflix-usage/email-settings.md
@@ -180,7 +179,7 @@ nav:
     - Add New Role: vidflix-usage/add-new-role.md
     - Add New Staff: vidflix-usage/add-new-staff.md
     - Add New Blog: vidflix-usage/add-new-blog.md
-    
+
 #      - uses/index.md
       # - Merchant:
       #   - vidflix-usage/create-parcel.md
