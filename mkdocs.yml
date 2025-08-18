@@ -171,6 +171,7 @@ nav:
 
   - Usage:
     - Add New Movie: vidflix-usage/add-new-movie.md
+    - TMDB Importer: vidflix-usage/tmdb-importer.md
     - Add New TV Series: vidflix-usage/add-new-tv-series.md
     - Add New Episode: vidflix-usage/add-new-episode.md
     - Add New Live TV: vidflix-usage/add-new-live-tv.md
