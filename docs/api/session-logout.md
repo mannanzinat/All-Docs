@@ -13,7 +13,14 @@ Once logged out, the session will be disconnected from WhatsApp, and you will ne
 ### API Endpoint
 
 ```http
-POST https://www.rapiwa.com/session/{API_Key}/logout
+POST https://app.rapiwa.com/api/logout
+```
+
+### Header
+
+```http
+Content-Type: application/json
+Authorization: Bearer Your_API_Key
 ```
 
 ###**Response:**

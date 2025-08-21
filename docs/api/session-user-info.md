@@ -13,7 +13,13 @@ This endpoint is useful to check the connection status, basic account details, a
 ### API Endpoint
 
 ```http
-GET https://www.rapiwa.com/session/{API_Key}/info
+GET https://app.rapiwa.com/api/info
+```
+
+### Header
+
+```http
+Authorization: Bearer Your_API_Key
 ```
 
 ###**Response:**

@@ -22,13 +22,14 @@ Deletes a specific message for everyone in the chat (if permitted by WhatsApp).
 ### API Endpoint
 
 ```http
-POST https://www.rapiwa.com/session/{API_Key}/delete-message
+POST https://app.rapiwa.com/api/delete-message
 ```
 
 ### Header
 
 ```http
 Content-Type: application/json
+Authorization: Bearer Your_API_Key
 ```
 
 ### Body

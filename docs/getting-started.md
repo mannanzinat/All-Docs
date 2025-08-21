@@ -20,7 +20,7 @@ It's quick, secure, and developer-friendly.
 ---
 
 ## Step 1: Create an Account
-1. Go to the [registration page](https://rapiwa.com/register).  
+1. Go to the [registration page](https://app.rapiwa.com/register).  
 2. Fill in your details and verify your email address.  
 3. Once verified, log in to access your dashboard.
 
@@ -28,7 +28,7 @@ It's quick, secure, and developer-friendly.
 
 ## Step 2: Create Your First WhatsApp Session
 1. **Log In to Your Dashboard**  
-   Access your account at [rapiwa.com/dashboard](https://rapiwa.com/client/dashboard).  
+   Access your account at [app.rapiwa.com/client/dashboard](https://app.rapiwa.com/client/dashboard).  
 2. **Navigate to the Sessions Section**  
    In the dashboard, go to the **Sessions** tab.  
 3. **Create a New Session**  
@@ -40,7 +40,7 @@ It's quick, secure, and developer-friendly.
 5. **Session Activation**  
    Once scanned, your session will be connected, and you can copy your API key.
 
-> 📘 **Tip:** For a more advanced walkthrough, check out the [detailed guide here](https://rapiwa.com/help-center).
+> 📘 **Tip:** For a more advanced walkthrough, check out the [detailed guide here](https://app.rapiwa.com/help-center).
 
 ---
 
@@ -49,12 +49,19 @@ It's quick, secure, and developer-friendly.
 **API Endpoint:**
 
 ```http
-POST https://www.rapiwa.com/session/{API_Key}/send-message
+POST https://app.rapiwa.com/api/send-message
+```
+
+### Header
+
+```http
+Content-Type: application/json
+Authorization: Bearer Your_API_Key
 ```
 
 **Body:**
 
-```bash
+```http
 {
   "number": "88017XXXXXXXX",
   "message_type": "text",
@@ -68,7 +75,7 @@ POST https://www.rapiwa.com/session/{API_Key}/send-message
 {
     "success": true,
     "message_type": "text",
-    "message_id": "3EB0C9C1719F058FFABB63",
-    "to": "88017XXXXXXXX@s.whatsapp.net"
+    "message_id": "XXXXXXXXXXXXXXXX",
+    "to": "88017XXXXXXXX"
 }
 ```

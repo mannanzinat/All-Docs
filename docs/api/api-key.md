@@ -11,14 +11,14 @@ Follow the steps below to generate your API Key.
 ---
 
 ## 1. Create a Rapiwa Account
-- Visit [rapiwa.com/register](https://rapiwa.com/register) and complete the registration form.
+- Visit [app.rapiwa.com/register](https://app.rapiwa.com/register) and complete the registration form.
 
 ![Registration Page](../assets/api/register.jpg)
 
 ---
 
 ## 2. Log In to Your Account
-- Go to [rapiwa.com/login](https://rapiwa.com/login) and sign in with your credentials.
+- Go to [app.rapiwa.com/login](https://app.rapiwa.com/login) and sign in with your credentials.
 
 ![Login Page](../assets/api/login.jpg)
 
@@ -30,7 +30,7 @@ Follow the steps below to generate your API Key.
 ---
 
 ## 4. Navigate to the Session Page
-- Open the [Session Page](https://rapiwa.com/client/session) from your dashboard.
+- Open the [Session Page](https://app.rapiwa.com/client/session) from your dashboard.
 
 ---
 

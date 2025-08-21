@@ -13,7 +13,13 @@ Use this endpoint to get the current QR code image or string to scan in your Wha
 ### API Endpoint
 
 ```http
-GET https://www.rapiwa.com/session/{API_Key}/qr
+GET https://app.rapiwa.com/api/qr
+```
+
+### Header
+
+```http
+Authorization: Bearer Your_API_Key
 ```
 
 ###**Response:**

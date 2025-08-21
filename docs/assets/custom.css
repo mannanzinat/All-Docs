@@ -104,3 +104,8 @@
 .md-banner {
   display: none;
 }
+
+.md-typeset a {
+    color: #359a7a;
+    word-break: break-word;
+}
