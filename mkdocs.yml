@@ -178,4 +178,5 @@ nav:
 
   - Webhooks:
     - Receive Message: api/webhooks/receive-message.md
+    - Message Status: api/webhooks/message-status.md
 
