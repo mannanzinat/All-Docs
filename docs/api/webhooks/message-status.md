@@ -18,7 +18,7 @@ Here is an example of the JSON payload you would receive:
 
 ```json
 {
-  "session_id": "p8x8zPG77t9VbiJd4YDZ",
+  "session_id": "XXXXXXXXXXXXXXXXX",
   "message_id": "3EB0BDC38AA36A7FD56ADD",
   "status": "read"
 }
