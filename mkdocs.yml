@@ -176,3 +176,6 @@ nav:
     - Delete a Message: api/delete-a-message.md
     - Send Bulk Message: api/send-bulk-message.md
 
+  - Webhooks:
+    - Receive Message: api/webhooks/receive-message.md
+
