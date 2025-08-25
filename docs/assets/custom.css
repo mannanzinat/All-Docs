@@ -14,6 +14,8 @@
 [data-md-color-primary=blue] .mdx-container {
   background: url('../assets/background-svg.svg') no-repeat bottom,
   linear-gradient(to bottom, var(--md-primary-fg-color), #359a7a 50%, #cfea11 99%, var(--md-default-bg-color) 99%)!important;
+  background-size: 100% !important;
+  padding-bottom: 30px;
 }
 
 /* Show light logo in light mode */
@@ -99,6 +101,8 @@
 .mdx-container {
     background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill:%23ffffff' /></svg>") no-repeat bottom,
                 linear-gradient(to bottom, var(--md-primary-fg-color), #359a7a 50%, #cfea11 99%, var(--md-default-bg-color) 99%) !important;
+  background-size: 100% !important;
+  padding-bottom: 30px;
 }
 
 .md-banner {
