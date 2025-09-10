@@ -5,52 +5,54 @@ sidebar_label: API Key
 
 # API Key
 
-An **API Key** is required to authenticate and interact with the Rapiwa API.  
+An **API Key** is required to authenticate and interact with the **Rapiwa API**.  
 Follow the steps below to generate your API Key.
 
 ---
 
 ## 1. Create a Rapiwa Account
-- Visit [app.rapiwa.com/register](https://app.rapiwa.com/register) and complete the registration form.
+- Go to [app.rapiwa.com/login](https://app.rapiwa.com/login).
+- Enter your **WhatsApp Number** to create an account.
 
-![Registration Page](../assets/api/register.jpg)
+![Registration Page](../assets/api/login.jpg)
 
 ---
 
-## 2. Log In to Your Account
-- Go to [app.rapiwa.com/login](https://app.rapiwa.com/login) and sign in with your credentials.
+## 2. Verify with OTP
+- Check your **WhatsApp inbox** for the OTP sent by Rapiwa.
+- Enter the OTP in the verification field to continue.
 
-![Login Page](../assets/api/login.jpg)
+![OTP Verification](../assets/api/otp.png)
 
 ---
 
 ## 3. Subscribe to a Plan
-- Choose and activate a plan that suits your needs.
+- Choose and activate the subscription plan that best fits your needs.
 
 ---
 
-## 4. Navigate to the Session Page
-- Open the [Session Page](https://app.rapiwa.com/client/session) from your dashboard.
+## 4. Open the Devices Page
+- From your dashboard, navigate to the [Devices Page](https://app.rapiwa.com/client/session).
 
 ---
 
 ## 5. Add a Device
-- Click **Add Device** to connect your WhatsApp device to Rapiwa.
+- Click **Add Device** to connect your WhatsApp device with Rapiwa.
 
 ---
 
 ## 6. Manage Your Device
-- Click the **Manage** button next to the device you have added.
+- Once added, click **Manage** next to your device.
 
 ![Manage Device](../assets/api/manage_device.jpg)
 
 ---
 
 ## 7. Retrieve Your API Key
-- Your **API Key** will be displayed on the device management screen.
+- On the device management screen, you’ll see your **API Key**.
 
 ![API Key](../assets/api/api_key.jpg)
 
 ---
 
-> 💡 **Tip:** Keep your API Key secure. Never share it publicly.
+> 💡 **Tip:** Keep your API Key **secure**. Never share it publicly. If you believe it’s been compromised, regenerate it immediately.

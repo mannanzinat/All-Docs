@@ -165,6 +165,7 @@ nav:
     - Get WhatsApp Session QR Code: api/sessions.md
     - Session User Info: api/session-user-info.md
     - Session Logout: api/session-logout.md
+    - Check If A Number Is On WhatsApp: api/on-whatsapp.md
   - Messages:
     - Send Text Message: api/send-text-message.md
     - Send Image Message: api/send-image-message.md
