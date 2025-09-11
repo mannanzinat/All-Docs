@@ -27,4 +27,4 @@ The minimum iOS version that your app supports. Flutter supports iOS 9.0 and lat
 The General tab of your project settings should resemble the following:
 
 
-![FacultyLMS](../assets/faculty/review-xcode-project.png)
+![Flixoo](../assets/faculty/review-xcode-project.png)

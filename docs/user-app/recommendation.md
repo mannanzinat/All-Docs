@@ -10,9 +10,9 @@ __[Android Studio]__, __[Flutter SDK]__,  __[Cocoapods]__,
 
 ## Recommended Version
 - flutter sdk environment:
-- sdk: ">=3.0.2 <4.0.0"
-- Dart SDK version: 3.3.4 (stable)
-- Android Studio: Jellyfish | 2023.3.1
+- sdk: ">=3.4.1 < 4.0.0"
+- Dart SDK version: 3.8.0 (stable)
+- Android Studio: koala | 2024.1.1
 
 
 
