@@ -19,12 +19,11 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Faculty - LMS Documentation
+site_name: Documentation
 site_url:
 site_author: SpaGreen Creative
 site_description: >-
-  A complete eLearning management system build for every edu-tech platform,
-  which is committed to deliver effortless lms experience!
+  CineFlix – Movies & TV Streaming CMS
 
 
 # Repository
@@ -32,7 +31,7 @@ repo_name:
 repo_url:
 
 # Copyright
-copyright: Copyright &copy; 2019 - 2023 SpaGreen Creative
+copyright: Copyright &copy; 2019 - 2025 SpaGreen Creative
 
 # Configuration
 theme:
@@ -64,23 +63,26 @@ theme:
     - toc.follow
     # - toc.integrate
   palette:
-    - scheme: default
-      primary: green
-      accent: green
+    - scheme:
+      primary: pink
+      accent:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - scheme: slate
-      primary: green
-      accent: green
+    - scheme:
+      primary: pink
+      accent:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+      extra_css:
+        - stylesheets/extra.css
   font:
-    text: Jost
+    text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
-  logo: assets/logo.png
+  favicon: assets/cineflix_images/favicon.png
+  logo: assets/cineflix_images/logo.png
+
 
 # Plugins
 plugins:
@@ -124,8 +126,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+    #  emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    #  emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -153,84 +155,128 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
-    - Introducing: getting-started.md
+    - Introduction: cineflix-usage/getting-started.md
     - Requirements: requirements.md
     - Installation: installation.md
   - Setup:
-      - setup/index.md
-      - General Setting: setup/general.md
-      - Preference: setup/preference.md
-      - Currency Setting: setup/currency.md
-      - Email Setting: setup/email.md
-      - Language Setting: setup/language.md
-      - Cache Setting: setup/cache.md
-      - Admin Panel Setting: setup/admin-panel.md
-      - Firebase Setting: setup/firebase.md
-      - Storage Setting: setup/storage.md
-      - Chat Setting: setup/chat.md
-      - Refund Setting: setup/refund.md
-      - Misc. Setting: setup/misc.md
-      - Payment Gateway:
-        - setup/payment-gateway.md
-      - SMS & OTP:
-        - uses/sms-otp.md
+      - System Settings: cineflix-usage/general.md
+      - Admin Settings: cineflix-usage/admin-settings.md
+      - TMDB settings: cineflix-usage/tmdb-settings.md
+      - Manage Video Type: cineflix-usage/video-type.md
+      - Language Setting: cineflix-usage/language.md
+      - Payment Method: cineflix-usage/payout-method.md
+      - Email Settings: cineflix-usage/email-settings.md
+
+
   - Usage:
-      - uses/index.md
-      - Course:
-        - uses/course-list.md
-        - uses/course-category.md
-        - uses/course-subject.md
-        - uses/course-tags.md
-        - uses/course-levels.md
-        - uses/certificates.md
-      - Manage Students:
-        - uses/manage-students.md
-      - Manage Instructors:
-        - uses/manage-instructor.md
-        - uses/add-instructor.md
-      - Manage Organization:
-        - uses/manage-organization.md
-        - uses/add-organization.md
-      - Manage Staff:
-        - uses/manage-staff.md
-        - uses/roles.md
-      - Media Library:
-        - uses/media-library.md
-      - All Pages:
-        - uses/all-pages.md
-      - Blog:
-        - uses/blog.md
-      - Payment Gateway:
-        - uses/payment-gateway.md
-      - Refund:
-        - uses/refund.md
-      - Packages:
-        - uses/packages.md
-      - Payout:
-        - uses/payout.md
-      - Notification:
-        - uses/notification.md
-      - Support:
-        - uses/support.md
-      - Marketing:
-        - uses/marketing.md
-      - Reports:
-        - uses/reports.md
-      - Mobile App Settings:
-        - uses/mobile-app-settings.md
-      - CMS:
-        - uses/cms.md
-      - Website Settings:
-        - uses/website-settings.md
+    - Add New Movie: cineflix-usage/add-new-movie.md
+    - TMDB Importer: cineflix-usage/tmdb-importer.md
+    - Add New TV Series: cineflix-usage/add-new-tv-series.md
+    - Add New Episode: cineflix-usage/add-new-episode.md
+    - Add New Live TV: cineflix-usage/add-new-live-tv.md
+    - Add New Category: cineflix-usage/add-new-category.md
+    - Add New Genre: cineflix-usage/add-new-genre.md
+    - Add New Star: cineflix-usage/add-new-star.md
+    - Add New Role: cineflix-usage/add-new-role.md
+    - Add New Staff: cineflix-usage/add-new-staff.md
+    - Add New Blog: cineflix-usage/add-new-blog.md
 
+      # - Merchant:
+      #   - cineflix-usage/create-parcel.md
+      #   - cineflix-usage/add-shop.md
+      #   - cineflix-usage/payout-request.md
+      #   - cineflix-usage/default-payment-account.md
+      # - Branch Manager:
+      #   - cineflix-usage/pickup-assign.md
+      # - Delivery Man:
+      #   - cineflix-usage/pickup-delivery.md
   - Utility:
-      - utility/index.md
+      - cineflix-usage/utility.md
 
-  - Addon:
-      - Addon:
-          addon/index.md
-  - Changelog:
-      - changelog/index.md
+#  - Addon:
+#      - Addon:
+#          addon/index.md
+#  - Changelog:
+#      - changelog/index.md
+
+  - User App:
+      - App Basics:
+         - Recommendation: user-app/recommendation.md
+         - Installation: user-app/installation.md
+         - Prepare Flutter Environment: user-app/prepare-flutter-environment.md
+
+      - Common Setup:
+         - Google Firebase Setup: user-app/google-firebase-setup.md
+         - Social Login Setup: user-app/social-login-setup.md
+         - Change API Server Details: user-app/change-api-server-details.md
+         - Change App Icon: user-app/change-app-logo.md
+         - Change Splash Screen Logo: user-app/change-splash-screen-logo.md
+
+      - Android Setup:
+         - Change App Name: user-app/change-app-name.md
+         - Change Android Launcher Icon: user-app/change-android-launcher-icon.md
+         - Change Android Package Name: user-app/change-android-package-name.md
+         - Generate Debug APK: user-app/generate-debug-apk.md
+         - Generate Signed APK: user-app/generate-signed-apk.md
+
+
+      - IOS Setup:
+         - Preliminaries: user-app/preliminaries.md
+         - Register App On AppStore: user-app/register-app-appstore.md
+         - Create Application Record on AppStore : user-app/create-application-record.md
+         - Review Xcode project settings:  user-app/review-xcode-project-settings.md
+         - Updating the app deployment version: user-app/updating-app-development-version.md
+         - Add an app icon: user-app/add-an-app-icon.md
+         - Build archive and Submit To AppStore: user-app/build-archive-and-submit.md
+         - Update the app build and version numbers: user-app/update-app-build.md
+         - Create An App Bundle: user-app/create-app-bundle.md
+         - Upload App Bundle To App Store Connect:  user-app/upload-app-bundle.md
+         - Updating the app deployment version: user-app/update-app-development-version.md
+         - Release your app on TestFlight: user-app/release-on-testflight.md
+         - Release your app to the App Store: user-app/release-on-app-store.md
+#
+  # - Smart TV App:
+  #     - App Basics:
+  #        - Recommendation: smart-tv-app/recommendation.md
+  #        - Installation: smart-tv-app/installation.md
+  #        - Prepare Flutter Environment: smart-tv-app/prepare-flutter-environment.md
+
+  #     - Common Setup:
+  #        - Change Api Server Details: smart-tv-app/change-api-server-details.md
+  #        - Change App Logo: smart-tv-app/change-app-logo.md
+  #        - Change Splash Screen Logo: smart-tv-app/change-splash-screen-logo.md
+
+  #     - Android Setup:
+  #        - Change App Name: smart-tv-app/change-app-name.md
+  #        - Change Android Launcher Icon: smart-tv-app/change-android-launcher-icon.md
+  #        - Change Android Package Name: smart-tv-app/change-android-package-name.md
+  #        - Generate Debug APK: smart-tv-app/generate-debug-apk.md
+  #        - Generate Signed APK: smart-tv-app/generate-signed-apk.md
+
+
+  #     - IOS Setup:
+  #        - Preliminaries: smart-tv-app/preliminaries.md
+  #        - Register App On AppStore: smart-tv-app/register-app-appstore.md
+  #        - Create Application Record on AppStore: smart-tv-app/create-application-record.md
+  #        - Review Xcode project settings: smart-tv-app/review-xcode-project-settings.md
+  #        - Updating the app deployment version: smart-tv-app/updating-app-development-version.md
+  #        - Add an app icon: smart-tv-app/add-an-app-icon.md
+  #        - Build archive and Submit To AppStore: smart-tv-app/build-archive-and-submit.md
+  #        - Update the app build and version numbers: smart-tv-app/update-app-build.md
+  #        - Create An App Bundle: smart-tv-app/create-app-bundle.md
+  #        - Upload App Bundle To App Store Connect: smart-tv-app/upload-app-bundle.md
+  #        - Updating the app deployment version: smart-tv-app/update-app-development-version.md
+  #        - Release your app on TestFlight: smart-tv-app/release-on-testflight.md
+  #        - Release your app to the App Store: smart-tv-app/release-on-app-store.md
+
+
+
+
+
+
+
+
+
 
 
 
