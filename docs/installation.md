@@ -48,7 +48,7 @@ Open browser and hit you server URL. Example: https://example.com/
 
 If all the requirements are fulfilled then click on Next
 
-![Flixoo](assets/flixoo_images/Others/vid-flix-install-initialize-2.png)
+![CineFlix](assets/cineflix_images/Others/vid-flix-install-initialize-2.png)
 
 Your database connection details:
 

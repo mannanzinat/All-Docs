@@ -30,6 +30,6 @@ To change the name of your app, you need to update the configuration files for b
 
 *(Please note that the file paths and attribute names in your project may be slightly different. The image below shows an example of what to look for.)*
 
-![Flixoo](../assets/faculty/change-app-name.png)
+![CineFlix](../assets/faculty/change-app-name.png)
 
 After changing the app name in the configuration files, rebuild your app to see the new name on the home screen.

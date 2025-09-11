@@ -23,7 +23,7 @@ site_name: Documentation
 site_url:
 site_author: SpaGreen Creative
 site_description: >-
-  Flixoo – Movies & TV Streaming CMS
+  CineFlix – Movies & TV Streaming CMS
 
 
 # Repository
@@ -80,8 +80,8 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/flixoo_images/favicon.png
-  logo: assets/flixoo_images/logo.png
+  favicon: assets/cineflix_images/favicon.png
+  logo: assets/cineflix_images/logo.png
 
 
 # Plugins
@@ -155,44 +155,43 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
-    - Introduction: flixoo-usage/getting-started.md
+    - Introduction: cineflix-usage/getting-started.md
     - Requirements: requirements.md
     - Installation: installation.md
   - Setup:
-      - System Settings: flixoo-usage/general.md
-      - Admin Settings: flixoo-usage/admin-settings.md
-      - TMDB settings: flixoo-usage/tmdb-settings.md
-      - Manage Video Type: flixoo-usage/video-type.md
-      - Language Setting: flixoo-usage/language.md
-      - Payment Method: flixoo-usage/payout-method.md
-      - Email Settings: flixoo-usage/email-settings.md
+      - System Settings: cineflix-usage/general.md
+      - Admin Settings: cineflix-usage/admin-settings.md
+      - TMDB settings: cineflix-usage/tmdb-settings.md
+      - Manage Video Type: cineflix-usage/video-type.md
+      - Language Setting: cineflix-usage/language.md
+      - Payment Method: cineflix-usage/payout-method.md
+      - Email Settings: cineflix-usage/email-settings.md
 
 
   - Usage:
-    - Add New Movie: flixoo-usage/add-new-movie.md
-    - TMDB Importer: flixoo-usage/tmdb-importer.md
-    - Add New TV Series: flixoo-usage/add-new-tv-series.md
-    - Add New Episode: flixoo-usage/add-new-episode.md
-    - Add New Live TV: flixoo-usage/add-new-live-tv.md
-    - Add New Category: flixoo-usage/add-new-category.md
-    - Add New Genre: flixoo-usage/add-new-genre.md
-    - Add New Star: flixoo-usage/add-new-star.md
-    - Add New Role: flixoo-usage/add-new-role.md
-    - Add New Staff: flixoo-usage/add-new-staff.md
-    - Add New Blog: flixoo-usage/add-new-blog.md
+    - Add New Movie: cineflix-usage/add-new-movie.md
+    - TMDB Importer: cineflix-usage/tmdb-importer.md
+    - Add New TV Series: cineflix-usage/add-new-tv-series.md
+    - Add New Episode: cineflix-usage/add-new-episode.md
+    - Add New Live TV: cineflix-usage/add-new-live-tv.md
+    - Add New Category: cineflix-usage/add-new-category.md
+    - Add New Genre: cineflix-usage/add-new-genre.md
+    - Add New Star: cineflix-usage/add-new-star.md
+    - Add New Role: cineflix-usage/add-new-role.md
+    - Add New Staff: cineflix-usage/add-new-staff.md
+    - Add New Blog: cineflix-usage/add-new-blog.md
 
-#      - uses/index.md
       # - Merchant:
-      #   - flixoo-usage/create-parcel.md
-      #   - flixoo-usage/add-shop.md
-      #   - flixoo-usage/payout-request.md
-      #   - flixoo-usage/default-payment-account.md
+      #   - cineflix-usage/create-parcel.md
+      #   - cineflix-usage/add-shop.md
+      #   - cineflix-usage/payout-request.md
+      #   - cineflix-usage/default-payment-account.md
       # - Branch Manager:
-      #   - flixoo-usage/pickup-assign.md
+      #   - cineflix-usage/pickup-assign.md
       # - Delivery Man:
-      #   - flixoo-usage/pickup-delivery.md
+      #   - cineflix-usage/pickup-delivery.md
   - Utility:
-      - flixoo-usage/utility.md
+      - cineflix-usage/utility.md
 
 #  - Addon:
 #      - Addon:

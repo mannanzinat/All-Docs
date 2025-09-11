@@ -20,7 +20,7 @@ To Manage **System Update** follow the procedures…
 
  Here you can update your system with latest version .
 
-![FacultyLMS](../assets/flixoo_images/setup/utility.png)
+![FacultyLMS](../assets/cineflix_images/setup/utility.png)
 
 
 

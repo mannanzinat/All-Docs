@@ -9,7 +9,7 @@ To change the launcher icon for your Android app, you need to generate a set of 
 3.  Customize the icon shape, color, and effects as needed.
 4.  Download the generated zip file.
 
-![Flixoo](../assets/faculty/change-android-luncher-icon.png)
+![CineFlix](../assets/faculty/change-android-luncher-icon.png)
 
 ### 2. Replace Icon Files
 

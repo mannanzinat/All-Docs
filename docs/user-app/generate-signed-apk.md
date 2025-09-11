@@ -3,7 +3,7 @@ First create a key-store file by following this link
 Then Copy your key.jks file to Project » key » key.jks
 
 
-![Flixoo](../assets/faculty/generate-signed-apk.png)
+![CineFlix](../assets/faculty/generate-signed-apk.png)
 
 
 To create apk, open android studio terminal then write command flutter build

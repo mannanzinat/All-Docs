@@ -42,9 +42,9 @@ To connect your mobile app to the Flixoo backend, you need to configure the API 
 
     *(Please note that the variable names and file structure in your project may be different. The images below show an example of what to look for.)*
 
-![Flixoo](../assets/faculty/Your-Api-base-Url-change-here.png)
-![Flixoo](../assets/faculty/Your-Api-base-Url-change-here2.png)
+![CineFlix](../assets/faculty/Your-Api-base-Url-change-here.png)
+![CineFlix](../assets/faculty/Your-Api-base-Url-change-here2.png)
 
 5.  Save the changes to the file.
 
-After updating the API details, your mobile app will be able to communicate with the Flixoo backend.
+After updating the API details, your mobile app will be able to communicate with the CineFlix backend.

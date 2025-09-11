@@ -30,6 +30,6 @@ In some cases, the splash screen logo is defined in the code. You may need to up
 
 *(Please note that the file paths and variable names in your project may be different. The image below shows an example of what to look for.)*
 
-![Flixoo](../assets/faculty/change-splash-logo.png)
+![CineFlix](../assets/faculty/change-splash-logo.png)
 
 After replacing the logo file and updating the code if necessary, rebuild your app to see the new splash screen.

@@ -53,5 +53,5 @@ Also, in `android/app/src/main/AndroidManifest.xml`, make sure that the `android
 
 *(Please note that the file paths and package names in your project may be slightly different. The images below show an example of what to look for.)*
 
-![Flixoo](../assets/faculty/change-app-package-name1.png)
-![Flixoo](../assets/faculty/change-app-package-name2.png)
+![CineFlix](../assets/faculty/change-app-package-name1.png)
+![CineFlix](../assets/faculty/change-app-package-name2.png)

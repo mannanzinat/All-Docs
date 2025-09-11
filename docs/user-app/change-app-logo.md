@@ -7,4 +7,4 @@ First, you need to generate your app icon. You can use an online app icon genera
 3.  **Replace Icons**: Go to `Project » android » app » src » main » res` and replace the existing `mipmap` folders with the ones you extracted.
 4.  **Update App Icon in Flutter**: Rename your Icon to `app_icon.png` then copy/paste into directory location: `Project » assets » logos`. Recommended logo size is 512x512.
 
-![Flixoo](../assets/faculty/change-app-logo.png)
+![CineFlix](../assets/faculty/change-app-logo.png)
