@@ -1,5 +1,5 @@
 ---
-title: On WhatsApp
+title: Verify WhatsApp
 sidebar_label: Sessions
 ---
 
@@ -18,7 +18,7 @@ Verifies if a given JID (WhatsApp ID) is registered on WhatsApp.
 ### API Endpoint
 
 ```http
-POST https://app.rapiwa.com/api/on-whatsapp
+POST https://app.rapiwa.com/api/verify-whatsapp
 ```
 
 ### Header
