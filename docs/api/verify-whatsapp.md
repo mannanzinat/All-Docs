@@ -43,7 +43,7 @@ Authorization: Bearer Your_API_Key
 {
     "success": true,
     "data": {
-        "phone": "+88017XXXXXXXX",
+        "number": "+88017XXXXXXXX",
         "exists": true,
         "jid": "88017XXXXXXXXXXXXX",
         "message": "✅ Number is on WhatsApp"
