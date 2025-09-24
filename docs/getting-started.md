@@ -6,7 +6,7 @@ sidebar_label: Getting Started
 # Getting Started with Rapiwa – WhatsApp Messaging API
 
 Learn how to set up your **Rapiwa** account and start sending WhatsApp messages in just a few minutes.  
-This guide covers **Account Creation**, **Device Setup**, **API Key Retrieval**, And **Sending Your First Message**.
+This guide covers **Account Creation**, **Device Setup**, **Device Key Retrieval**, And **Sending Your First Message**.
 
 ---
 
@@ -16,7 +16,7 @@ With Rapiwa, you can send and receive WhatsApp messages using a simple, secure, 
 
 By the end of this guide, you’ll:
 - Have a connected WhatsApp session.  
-- Get your **API Key**.  
+- Get your **Device Key**.  
 - Send your first WhatsApp message.  
 
 ---
@@ -41,9 +41,9 @@ By the end of this guide, you’ll:
    - Go to **Settings → Linked Devices**.  
    - Tap **Link a Device** and scan the QR code.  
 5. **Activate Your Session**  
-   Once linked, your WhatsApp session will be active, and you’ll see your **API Key**.
+   Once linked, your WhatsApp session will be active, and you’ll see your **Device Key**.
 
-> 💡 **Tip:** Store your API Key securely. Do not share it publicly.
+> 💡 **Tip:** Store your Device Key securely. Do not share it publicly.
 
 ---
 
@@ -59,7 +59,7 @@ POST https://app.rapiwa.com/api/send-message
 
 ```http
 Content-Type: application/json
-Authorization: Bearer Your_API_Key
+Authorization: Bearer Your_Device_Key
 ```
 
 **Body:**

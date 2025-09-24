@@ -159,8 +159,8 @@ nav:
   - Home: index.md
   - Getting started:
     - Introducing: getting-started.md
-  - API Key:
-    - API Key: api/api-key.md
+  - Device Key:
+    - Device Key: api/device-key.md
   - Sessions:
     - Get WhatsApp Session QR Code: api/sessions.md
     - Session User Info: api/session-user-info.md

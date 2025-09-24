@@ -40,7 +40,7 @@ POST https://app.rapiwa.com/api/send-message
 
 ```http
 Content-Type: application/json
-Authorization: Bearer Your_API_Key
+Authorization: Bearer Your_Device_Key
 ```
 
 ### Body
@@ -68,4 +68,4 @@ Authorization: Bearer Your_API_Key
 ```
 
 
-> 💡 **Tip:** Keep your API Key secure. Never share it publicly.
+> 💡 **Tip:** Keep your Device Key secure. Never share it publicly.

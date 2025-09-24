@@ -149,4 +149,4 @@ This webhook delivers structured JSON data with:
 ```
 
 
-> 💡 **Tip:** Keep your API Key secure. Never share it publicly.
+> 💡 **Tip:** Keep your Device Key secure. Never share it publicly.

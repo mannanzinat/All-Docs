@@ -1,12 +1,12 @@
 ---
-title: API Key
-sidebar_label: API Key
+title: Device Key
+sidebar_label: Device Key
 ---
 
-# API Key
+# Device Key
 
-An **API Key** is required to authenticate and interact with the **Rapiwa API**.  
-Follow the steps below to generate your API Key.
+An **Device Key** is required to authenticate and interact with the **Rapiwa API**.  
+Follow the steps below to generate your Device Key.
 
 ---
 
@@ -48,11 +48,11 @@ Follow the steps below to generate your API Key.
 
 ---
 
-## 7. Retrieve Your API Key
-- On the device management screen, you’ll see your **API Key**.
+## 7. Retrieve Your Device Key
+- On the device management screen, you’ll see your **Device Key**.
 
-![API Key](../assets/api/api_key.jpg)
+![Device Key](../assets/api/api_key.jpg)
 
 ---
 
-> 💡 **Tip:** Keep your API Key **secure**. Never share it publicly. If you believe it’s been compromised, regenerate it immediately.
+> 💡 **Tip:** Keep your Device Key **secure**. Never share it publicly. If you believe it’s been compromised, regenerate it immediately.
