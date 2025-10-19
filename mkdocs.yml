@@ -18,12 +18,13 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
+
 # Project information
 site_name: Documentation
 site_url:
 site_author: SpaGreen Creative
 site_description: >-
- Rapiwa provides a powerful and low cost WhatsApp API for developers to integrate messaging, automation into their applications.
+  Rapiwa provides a powerful and low-cost WhatsApp API for developers to integrate messaging and automation into their applications.
 
 # Repository
 repo_name:
@@ -32,10 +33,9 @@ repo_url:
 # Copyright
 copyright: Copyright &copy; 2019 - 2025 SpaGreen Creative
 
-
 use_directory_urls: false
 
-# Configuration
+# Theme configuration
 theme:
   name: material
   custom_dir: material/.overrides
@@ -46,38 +46,25 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.tabs.link
     - content.tooltips
-    # - header.autohide
-    # - navigation.expand
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
-    # - navigation.prune
-#    - navigation.sections
     - navigation.tabs
-    # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
-#    - search.highlight
-#    - search.share
-#    - search.suggest
     - toc.follow
-    # - toc.integrate
   palette:
-  - scheme: slate
-    primary: blue
-    toggle:
-      default: true
-      icon: material/weather-sunny
-      name: Switch to light mode
-
-  - scheme: light
-    primary: light blue
-    toggle:
-      icon: material/weather-night
-      name: Switch to dark mode
-
+    - scheme: slate
+      primary: blue
+      toggle:
+        default: true
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: light
+      primary: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
   font:
     text: Outfit
     code: Roboto Mono
@@ -86,15 +73,15 @@ theme:
 
 # Plugins
 plugins:
-  - glightbox:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - mermaid2
 
 # Hooks
 hooks:
   - material/.overrides/hooks/translations.py
 
-# Customization
+# Extra settings
 extra:
   annotate:
     json: [.s2]
@@ -109,10 +96,16 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@spagreen
 
+# Extra CSS/JS (GLightbox included here)
 extra_css:
-- assets/custom.css
+  - assets/custom.css
+  - https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css
 
-# Extensions
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js
+  - assets/custom.js  # Optional if you have custom JS
+
+# Markdown extensions
 markdown_extensions:
   - abbr
   - admonition
@@ -129,8 +122,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -154,30 +147,30 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# Page tree
+# Navigation
 nav:
   - Home: index.md
   - Getting started:
-    - Introducing: getting-started.md
+      - Introducing: getting-started.md
   - Device Key:
-    - Device Key: api/device-key.md
+      - Device Key: api/device-key.md
   - Sessions:
-    - Get WhatsApp Session QR Code: api/sessions.md
-    - Session User Info: api/session-user-info.md
-    - Session Logout: api/session-logout.md
-    - Check If A Number Is On WhatsApp: api/verify-whatsapp.md
+      - Get WhatsApp Session QR Code: api/sessions.md
+      - Session User Info: api/session-user-info.md
+      - Session Logout: api/session-logout.md
+      - Check If A Number Is On WhatsApp: api/verify-whatsapp.md
   - Messages:
-    - Send Text Message: api/send-text-message.md
-    - Send Image Message: api/send-image-message.md
-    - Send Video Message: api/send-video-message.md
-    - Send Document Message: api/send-document-message.md
-    - Send Audio Message: api/send-audio-message.md
-    - Send Location: api/send-location.md
-    - Send Quoted Message: api/send-quoted-message.md
-    - Delete a Message: api/delete-a-message.md
-    - Send Bulk Message: api/send-bulk-message.md
-
+      - Send Text Message: api/send-text-message.md
+      - Send Image Message: api/send-image-message.md
+      - Send Video Message: api/send-video-message.md
+      - Send Document Message: api/send-document-message.md
+      - Send Audio Message: api/send-audio-message.md
+      - Send Location: api/send-location.md
+      - Send Quoted Message: api/send-quoted-message.md
+      - Delete a Message: api/delete-a-message.md
+      - Send Bulk Message: api/send-bulk-message.md
   - Webhooks:
-    - Receive Message: api/webhooks/receive-message.md
-    - Message Status: api/webhooks/message-status.md
-
+      - Receive Message: api/webhooks/receive-message.md
+      - Message Status: api/webhooks/message-status.md
+  - N8N:
+    - n8n.md
