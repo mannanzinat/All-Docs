@@ -53,6 +53,7 @@ theme:
     - navigation.top
     - navigation.tracking
     - toc.follow
+    - navigation.expand
   palette:
     - scheme: slate
       primary: blue
@@ -167,8 +168,29 @@ nav:
       - Send Audio Message: api/send-audio-message.md
       - Send Location: api/send-location.md
       - Send Quoted Message: api/send-quoted-message.md
+      - Send Contact Message: api/send-contact-message.md
+      - Send Poll Message: api/send-poll-message.md
       - Delete a Message: api/delete-a-message.md
       - Send Bulk Message: api/send-bulk-message.md
+
+  - Groups:
+      - Create Groups: api/groups/create-group.md
+      - Get All Groups: api/groups/groups.md
+      - Get Groups Metadata: api/groups/metadata.md
+      - Add Member: api/groups/add-member.md
+      - Get Group Invite Link: api/groups/invite-link.md
+      - Join to Group: api/groups/join-to-group.md
+      - Leave Group: api/groups/leave-group.md
+      - Delete Group: api/groups/delete-group.md
+      - Group Messages:
+            - Send Text Message: api/groups/messages/send-text-message.md
+            - Send Image Message: api/groups/messages/send-image-message.md
+            - Send Video Message: api/groups/messages/send-video-message.md
+            - Send Document Message: api/groups/messages/send-document-message.md
+            - Send Audio Message: api/groups/messages/send-audio-message.md
+            - Send Location: api/groups/messages/send-location.md
+            - Send Poll Message: api/groups/messages/send-poll-message.md
+
   - Webhooks:
       - Receive Message: api/webhooks/receive-message.md
       - Message Status: api/webhooks/message-status.md
